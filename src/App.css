@@ -1,38 +1,244 @@
 .App {
   text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th {
+  border: 10px solid #7c7b7b;
+  text-align: center;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td {
+  padding: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.trapsImage {
+  width: 180px;
+  height: 180px;
+  transition: transform .2s;
+}
+
+.trapsImage:hover {
+  transform: scale(2.5);
+}
+
+.deltsImage {
+  width: 220px;
+  height: 150px;
+  transition: transform .2s;
+  margin-right: 5px;
+}
+
+.deltsImage:hover {
+  transform: scale(2.5);
+}
+
+.deltsImage2 {
+  width: 160px;
+  height: 150px;
+  transition: transform .2s;
+  margin-left: 5px;
+}
+
+.deltsImage2:hover {
+  transform: scale(2.5);
+}
+
+.latsImage {
+  width: 180px;
+  height: 180px;
+  transition: transform .2s;
+}
+
+.latsImage:hover {
+  transform: scale(2.5);
+}
+
+.bicepsImage {
+  width: 180px;
+  height: 180px;
+  transition: transform .2s;
+}
+
+.bicepsImage:hover {
+  transform: scale(2.5);
+}
+
+.tricepsImage {
+  width: 180px;
+  height: 125px;
+  transition: transform .2s;
+}
+
+.tricepsImage:hover {
+  transform: scale(2.5);
+}
+
+.pecsImage {
+  width: 180px;
+  height: 110px;
+  transition: transform .2s;
+}
+
+.pecsImage:hover {
+  transform: scale(2.5);
+}
+
+.absImage {
+  width: 180px;
+  height: 100px;
+  transition: transform .2s;
+  margin-right: 5px;
+}
+
+.absImage:hover {
+  transform: scale(2.5);
+}
+
+.obliquesImage {
+  width: 180px;
+  height: 100px;
+  transition: transform .2s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.obliquesImage:hover {
+  transform: scale(2.5);
+}
+
+.serratusImage {
+  width: 180px;
+  height: 100px;
+  transition: transform .2s;
+  margin-left: 5px;
+}
+
+.serratusImage:hover {
+  transform: scale(2.5);
+}
+
+.forearmsImage {
+  width: 180px;
+  height: 100px;
+  transition: transform .2s;
+}
+
+.forearmsImage:hover {
+  transform: scale(2.5);
+}
+
+.glutesImage {
+  width: 230px;
+  height: 160px;
+  transition: transform .2s;
+  margin-right: 5px;
+}
+
+.glutesImage:hover {
+  transform: scale(2.5);
+}
+
+.glutesImage2 {
+  width: 180px;
+  height: 160px;
+  transition: transform .2s;
+  margin-left: 5px;
+}
+
+.glutesImage2:hover {
+  transform: scale(2.5);
+}
+
+.hamstringsImage {
+  width: 180px;
+  height: 150px;
+  transition: transform .2s;
+}
+
+.hamstringsImage:hover {
+  transform: scale(2.5);
+}
+
+.quadsImage {
+  width: 180px;
+  height: 140px;
+  transition: transform .2s;
+}
+
+.quadsImage:hover {
+  transform: scale(2.5);
+}
+
+.calvesImage {
+  width: 180px;
+  height: 200px;
+  transition: transform .2s;
+}
+
+.calvesImage:hover {
+  transform: scale(2.5);
+}
+
+.adductorsImage {
+  width: 210px;
+  height: 120px;
+  transition: transform .2s;
+}
+
+.adductorsImage:hover {
+  transform: scale(2.5);
+}
+
+.abductorsImage {
+  width: 140px;
+  height: 200px;
+  transition: transform .2s;
+  margin-right: 5px;
+}
+
+.abductorsImage:hover {
+  transform: scale(2.5);
+}
+
+.abductorsImage2 {
+  width: 180px;
+  height: 200px;
+  transition: transform .2s;
+  margin-left: 5px;
+}
+
+.abductorsImage2:hover {
+  transform: scale(2.5);
+}
+
+.cardioImage {
+  width: 230px;
+  height: 200px;
+  transition: transform .2s;
+}
+
+.cardioImage:hover {
+  transform: scale(2.5);
+}
+
+table {
+  margin-bottom: 100px;
+}
+
+.muscleGroup {
+  font-size: 2em;
+  font-weight: 800;
 }
