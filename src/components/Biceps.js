@@ -1,21 +1,225 @@
 import React from 'react';
 import bicepsImage from '../images/biceps.jpg';
+import trapVideo from '../videos/video.mp4';
+import armRaiseThumbnail from '../images/armRaiseThumbnail.jpg';
 
 function Biceps() {
     return(
         <div>
             <table>
-                <tr>
+                <tr className="headings">
                     <th className="muscleGroup">Biceps</th>
-                    <th>How to target the biceps</th>
+                    <th>Name of exercise</th>
                     <th>Instructions</th>
-                    <th>Example</th>
+                    <th>Examples</th>
                 </tr>
                 <tr>
                     <td><img src={ bicepsImage } className="bicepsImage" alt="biceps muscle"></img></td>
-                    <td>Weighted arm raises</td>
-                    <td>Hold weight in each hand and shrug your shoulders</td>
-                    <td>Video goes here</td>
+                    <td className="nameOfExercise">Full supination concentration</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">In & out</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Static arm curl</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Cross body curls</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">half curls (2 types)</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">hammer curls</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">In & out hammer curls</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Static hammer arm curl</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Cross body hammer curl</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">half hammer curls (2 types)</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Close body drag curl</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Hammer pronation curls</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Band curls toward face</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Band curls with elbows behind back</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Waiter's curl</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Iso/eccentric burnout</td>
+                    <td className="explanation">
+                        explanation here
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
                 </tr>
             </table>
         </div>
