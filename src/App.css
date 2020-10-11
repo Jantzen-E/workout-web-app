@@ -47,8 +47,8 @@ tr:nth-child(even) {
 }
 
 .deltsImage2 {
-  width: 160px;
-  height: 150px;
+  width: 216 px;
+  height: 206px;
   transition: transform .2s;
   margin-left: 5px;
 }

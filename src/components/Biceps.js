@@ -1,7 +1,6 @@
 import React from 'react';
 import bicepsImage from '../images/biceps.jpg';
 import trapVideo from '../videos/video.mp4';
-import armRaiseThumbnail from '../images/armRaiseThumbnail.jpg';
 import supinationThumbnail from '../images/supinationThumbnail.jpg';
 import inOutThumbnail from '../images/inOutThumbnail.jpg';
 import staticThumbnail from '../images/staticThumbnail.jpg';
