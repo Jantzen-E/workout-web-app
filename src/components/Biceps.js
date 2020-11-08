@@ -61,6 +61,33 @@ function Biceps() {
                 </tr>
                 <tr>
                     <td></td>
+                    <td className="nameOfExercise">In & out hammer curls</td>
+                    <td className="explanation">
+                        Perform the same exercise as above but with the hammer grip instead of the normal curl grip.
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">hammer curls</td>
+                    <td className="explanation">
+                        This is like a regular curl but you hold the weights at a different angle as if you were
+                        lifting and lowering a hammer.
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ hammerThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td className="nameOfExercise">Static arm curl</td>
                     <td className="explanation">
                         Hold weights in each hand.  Raise one hand up to 90 degrees so that your forearm is  
@@ -70,6 +97,20 @@ function Biceps() {
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ staticThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Static hammer arm curl</td>
+                    <td className="explanation">
+                        Perform the same exercise as explained above but grip the weights like a hammer instead
+                        of the regular curl position.
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ staticHammerThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -93,61 +134,10 @@ function Biceps() {
                 </tr>
                 <tr>
                     <td></td>
-                    <td className="nameOfExercise">half curls (2 types)</td>
-                    <td className="explanation">
-                        explanation here
-                    </td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ halfCurlThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td className="nameOfExercise">hammer curls</td>
-                    <td className="explanation">
-                        explanation here
-                    </td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ hammerThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td className="nameOfExercise">In & out hammer curls</td>
-                    <td className="explanation">
-                        explanation here
-                    </td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td className="nameOfExercise">Static hammer arm curl</td>
-                    <td className="explanation">
-                        explanation here
-                    </td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ staticHammerThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td className="nameOfExercise">Cross body hammer curl</td>
                     <td className="explanation">
-                        explanation here
+                        Perform a similar exercise as explained above but grip the weights like a hammer instead of
+                        the regular curl position.  You do not have to sit down for this exercise.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ crossHammerThumbnail }>
@@ -158,9 +148,32 @@ function Biceps() {
                 </tr>
                 <tr>
                     <td></td>
+                    <td className="nameOfExercise">half curls (2 types)</td>
+                    <td className="explanation">
+                        1st type: Hold dumbells in each hand while they are hanging and lift them up until they are 
+                        perpendicular to your body.  Then lower them down until they are hanging again. 
+                        Repeat that motion which should only be half of the range of motion because you don't 
+                        raise the weights all the way to your shoulders.
+                        <br></br>
+                        <br></br>
+                        2nd type: Hold dumbells in each hand and the follow the instructions above except for the
+                        range of motion should be lowering the weights from your shoulders until your arms are 
+                        perpendicular to your body but no lower.  Do not lower them to a hanging position.  See
+                        video for further explanation.
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ halfCurlThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td className="nameOfExercise">half hammer curls (2 types)</td>
                     <td className="explanation">
-                        explanation here
+                        Perform the same exercise as explained in the previous exercise but with a hammer grip 
+                        instead of the normal curl grip.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ halfHammerThumbnail }>
@@ -173,7 +186,8 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Close body drag curl</td>
                     <td className="explanation">
-                        explanation here
+                        Do a curl but as you lift the dumbells or barbell up, let your elbows go behind your back
+                        so that the barbell or dumbells drag straight up close to your body.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
@@ -186,7 +200,8 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Hammer pronation curls</td>
                     <td className="explanation">
-                        explanation here
+                        Perform a hammer curl but instead of back side of your hand facing outwards, pronate your arm
+                        so that the back side of your hand faces upward.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ hammerPronationThumbnail }>
@@ -199,7 +214,8 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Band curls toward face</td>
                     <td className="explanation">
-                        explanation here
+                        Anchor an exercise band to something solid and then do a curl toward your face with your 
+                        elbows pointing toward where the band is anchored.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ faceCurlsThumbnail }>
@@ -212,7 +228,8 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Band curls with elbows behind back</td>
                     <td className="explanation">
-                        explanation here
+                        Anchor the band behind you and start with your arms behind your back.  Curl your arms forward
+                        until they get close to your shoulders.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
@@ -225,7 +242,8 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Waiter's curl</td>
                     <td className="explanation">
-                        explanation here
+                        Hold one dumbell with 2 hands like you are holding a platter of food.  Curl it up towards you
+                        then lower it down slowly.  Repeat as many times as you can.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ waiterThumbnail }>
@@ -238,7 +256,10 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Iso/eccentric burnout</td>
                     <td className="explanation">
-                        explanation here
+                        Hold the weights halfway between hanging position and your shoulders so that your arms
+                        are parallel with the floor.  Hold them there as long as you can without lowering them.
+                        When you get fatigued and your arms lower, raise them back up to the spot they were at
+                        to get an isometric/eccentric exercise.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ burnoutThumbnail }>
@@ -251,7 +272,14 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Towel curls/leg curls</td>
                     <td className="explanation">
-                        explanation here
+                        Stand up against a wall and wrap a towel under one of your legs.  Grab the towel like you
+                        are holding dumbells and curl the weight of one of your legs up.  You can adjust the resistance
+                        by pushing your leg down harder or softer depending on how hard you want to work out.
+                        <br></br>
+                        <br></br>
+                        The leg curl is a similar concept except for you sit down and grab the opposite hamstring.  You 
+                        curl the weight of your leg up and can adjust how hard it is by pressing your leg down more.
+                        These 2 exercises are great alternatives if you don't have dumbells or a barbell.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ legCurlThumbnail }>
