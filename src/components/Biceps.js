@@ -33,7 +33,9 @@ function Biceps() {
                     <td><img src={ bicepsImage } className="bicepsImage" alt="biceps muscle"></img></td>
                     <td className="nameOfExercise">Full supination concentration</td>
                     <td className="explanation">
-                        explanation here
+                        Perform a one armed curl as normal but at the top of the movement rotate your the pinky side
+                        of your hand inward like you are trying to point it at your shoulder which will supinate
+                        your arm even more.  Lower the weight back down and then repeat with the other arm.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
@@ -46,7 +48,9 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">In & out</td>
                     <td className="explanation">
-                        explanation here
+                        Do a normal curl by pulling the weights up to your shoulders and then lower them down.  
+                        Then when you raise the weights up again, pull them out wider than your shoulders.  Lower
+                        them down slowly and repeat alternating between normal curls and wide curls.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ inOutThumbnail }>
@@ -59,7 +63,10 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Static arm curl</td>
                     <td className="explanation">
-                        explanation here
+                        Hold weights in each hand.  Raise one hand up to 90 degrees so that your forearm is  
+                        parallel to the floor.  Hold it there while you do 4 curls with your other arm.  After
+                        the 4 curls are done, raise your other arm up to the 90 degree point and maintain it there
+                        during the whole time while you are doing 4 curls with the other arm.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ staticThumbnail }>
@@ -72,7 +79,10 @@ function Biceps() {
                     <td></td>
                     <td className="nameOfExercise">Cross body curls</td>
                     <td className="explanation">
-                        explanation here
+                        Sit down on a bench with your elbow resting on the inside of your knee.  With a weight
+                        in your hand, do a curl across your body so that the weight almost scrapes across your 
+                        opposite pectoral muscle.  Lower it down slowly and repeat as needed.  Then switch hands
+                        and repeat instructions above.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ crossBodyThumbnail }>

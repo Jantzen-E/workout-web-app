@@ -54,9 +54,12 @@ function Delts() {
                 </tr>
                 <tr>
                     <td></td>
-                    <td className="nameOfExercise">Leaning forward shoulder flys</td>
+                    <td className="nameOfExercise">Leaning forward shoulder flys (bent arm and straight arm)</td>
                     <td className="explanation">
-                        explanation here
+                        Sit down while holding dumbells in each hand while letting the weight hang down.  Lean your body
+                        slightly forward and slowly extend both arms out to the side.  Then slowly lower them down to
+                        the hanging position again.  For the bent arm variation, bend your arm at the elbow so that your
+                        forearm and your bicep are at a 90 degree angle and do the exercise as explained above.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ shoulderFlyThumbnail }>
@@ -69,7 +72,9 @@ function Delts() {
                     <td></td>
                     <td className="nameOfExercise">shoulder press</td>
                     <td className="explanation">
-                        explanation here
+                        Hold dumbells in each hand just above your shoulders.  Extend your arms all the way above your head 
+                        until the dumbells lightly touch above your head.  Then lower them back down slowly to the position
+                        just above your shoulders.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
@@ -80,9 +85,25 @@ function Delts() {
                 </tr>
                 <tr>
                     <td></td>
+                    <td className="nameOfExercise">y press</td>
+                    <td className="explanation">
+                        Do the same things as the shoulder press but when you extend your arms above your head, the weights should
+                        get farther apart so that your body looks like a "Y" when they are fully extended.
+                    </td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ ypressThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td className="nameOfExercise">pours</td>
                     <td className="explanation">
-                        explanation here
+                        Hold dumbells in each hand and exend them out to your sides with one side of the dumbell pointing up
+                        as if you are holding 2 cups of water.  Then rotate the dumbells forward as if you were pouring the 
+                        liquid out.  Return to the first position and repeat.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ poursThumbnail }>
@@ -95,7 +116,9 @@ function Delts() {
                     <td></td>
                     <td className="nameOfExercise">weighted circle</td>
                     <td className="explanation">
-                        explanation here
+                        Hold dumbells in each hand and extend each weight to your side so that your arms are parallel to the 
+                        ground.  Then move your arms in a circle by rotating forward first for 30 seconds.  Then rotate the 
+                        opposite way for 30 seconds.  Repeat as needed.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ circlesThumbnail }>
@@ -108,7 +131,10 @@ function Delts() {
                     <td></td>
                     <td className="nameOfExercise">upright row</td>
                     <td className="explanation">
-                        explanation here
+                        Hold dumbells in each hand and let them hang down in front of you.  The dumbells should be close
+                        together (almost touching).  Raise them straight up until the weights are just under your chin 
+                        and your elbows are as high as your ears.  Then lower the weights down slowly to the original position 
+                        then repeat.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
@@ -119,22 +145,11 @@ function Delts() {
                 </tr>
                 <tr>
                     <td></td>
-                    <td className="nameOfExercise">y press</td>
-                    <td className="explanation">
-                        explanation here
-                    </td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ ypressThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td className="nameOfExercise">pike push up</td>
                     <td className="explanation">
-                        explanation here
+                        Your feet should be a lot closer to your hands compared to a normal push up.  Your butt should be sticking
+                        up in the air.  Using your shoulders, lower your upper body slowly until the top of your head touches the 
+                        ground.  Then push your body back up until your arms are extended again.
                     </td>
                     <td>
                         <video width="320" height="240" autoplay controls muted poster={ pikeThumbnail }>
