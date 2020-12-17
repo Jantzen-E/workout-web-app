@@ -1,5 +1,5 @@
 import React from 'react';
-import forearmsImage from '../images/forearms.jpg';
+import forearmsImage from '../images/forearms/forearms.jpg';
 
 function Forearms() {
     return(

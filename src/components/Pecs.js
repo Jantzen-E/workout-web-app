@@ -1,21 +1,21 @@
 import React from 'react';
-import pecsImage from '../images/pecs.jpg';
+import pecsImage from '../images/pecs/pecs.jpg';
 import trapVideo from '../videos/video.mp4';
-import inclineBenchThumbnail from '../images/inclineBenchThumbnail.jpg';
-import benchPressThumbnail from '../images/benchPressThumbnail.jpg';
-import declineBenchThumbnail from '../images/declineBenchThumbnail.png';
-import dumbbellPressThumbnail from '../images/dumbbellPressThumbnail.jpg';
-import flyCrossoverThumbnail from '../images/flyCrossoverThumbnail.jpg';
-import mountainClimberThumbnail from '../images/mountainClimberThumbnail.jpg';
-import standardPushupThumbnail from '../images/standardPushupThumbnail.jpg';
-import militaryPushThumbnail from '../images/militaryPushThumbnail.jpg';
-import widePushThumbnail from '../images/widePushThumbnail.jpg';
-import declinePushThumbnail from '../images/declinePushThumbnail.jpg';
-import divePushThumbnail from '../images/divePushThumbnail.jpg';
-import staggeredThumbnail from '../images/staggeredThumbnail.jpg';
-import prisonCellThumbnail from '../images/prisonCellThumbnail.jpg';
-import sloMoThumbnail from '../images/sloMoThumbnail.jpg';
-import sidePushThumbnail from '../images/sidePushThumbnail.jpg';
+import inclineBenchThumbnail from '../images/pecs/inclineBenchThumbnail.jpg';
+import benchPressThumbnail from '../images/pecs/benchPressThumbnail.jpg';
+import declineBenchThumbnail from '../images/pecs/declineBenchThumbnail.png';
+import dumbbellPressThumbnail from '../images/pecs/dumbbellPressThumbnail.jpg';
+import flyCrossoverThumbnail from '../images/pecs/flyCrossoverThumbnail.jpg';
+import mountainClimberThumbnail from '../images/pecs/mountainClimberThumbnail.jpg';
+import standardPushupThumbnail from '../images/pecs/standardPushupThumbnail.jpg';
+import militaryPushThumbnail from '../images/pecs/militaryPushThumbnail.jpg';
+import widePushThumbnail from '../images/pecs/widePushThumbnail.jpg';
+import declinePushThumbnail from '../images/pecs/declinePushThumbnail.jpg';
+import divePushThumbnail from '../images/pecs/divePushThumbnail.jpg';
+import staggeredThumbnail from '../images/pecs/staggeredThumbnail.jpg';
+import prisonCellThumbnail from '../images/pecs/prisonCellThumbnail.jpg';
+import sloMoThumbnail from '../images/pecs/sloMoThumbnail.jpg';
+import sidePushThumbnail from '../images/pecs/sidePushThumbnail.jpg';
 
 function Pecs() {
     return(

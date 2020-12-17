@@ -1,19 +1,19 @@
 import React from 'react';
-import tricepsImage from '../images/triceps.png';
+import tricepsImage from '../images/triceps/triceps.png';
 import trapVideo from '../videos/video.mp4';
-import diamondPushupThumbnail from '../images/diamondPushupThumbnail.jpg';
-import sideTriRiseThumbnail from '../images/sideTriRiseThumbnail.JPG';
-import triPushupThumbnail from '../images/triPushupThumbnail.png';
-import skullCrusherThumbnail from '../images/skullCrusherThumbnail.jpg';
-import chairDipThumbnail from '../images/chairDipThumbnail.jpg';
-import tricepPressThumbnail from '../images/tricepPressThumbnail.jpg';
-import sphinxPushupThumbnail from '../images/sphinxPushupThumbnail.jpg';
-import chairSkullCrusherThumbnail from '../images/chairSkullCrusherThumbnail.jpg';
-import triExtensionThumbnail from '../images/triExtensionThumbnail.jpg';
-import tricepKickbackThumbnail from '../images/tricepKickbackThumbnail.jpg';
-import clavShExtensionThumbnail from '../images/clavShExtensionThumbnail.jpg';
-import isoBurnoutThumbnail from '../images/isoBurnoutThumbnail.jpg';
-import cobraThumbnail from '../images/cobraThumbnail.jpg';
+import diamondPushupThumbnail from '../images/triceps/diamondPushupThumbnail.jpg';
+import sideTriRiseThumbnail from '../images/triceps/sideTriRiseThumbnail.JPG';
+import triPushupThumbnail from '../images/triceps/triPushupThumbnail.png';
+import skullCrusherThumbnail from '../images/triceps/skullCrusherThumbnail.jpg';
+import chairDipThumbnail from '../images/triceps/chairDipThumbnail.jpg';
+import tricepPressThumbnail from '../images/triceps/tricepPressThumbnail.jpg';
+import sphinxPushupThumbnail from '../images/triceps/sphinxPushupThumbnail.jpg';
+import chairSkullCrusherThumbnail from '../images/triceps/chairSkullCrusherThumbnail.jpg';
+import triExtensionThumbnail from '../images/triceps/triExtensionThumbnail.jpg';
+import tricepKickbackThumbnail from '../images/triceps/tricepKickbackThumbnail.jpg';
+import clavShExtensionThumbnail from '../images/triceps/clavShExtensionThumbnail.jpg';
+import isoBurnoutThumbnail from '../images/triceps/isoBurnoutThumbnail.jpg';
+import cobraThumbnail from '../images/triceps/cobraThumbnail.jpg';
 
 function Triceps() {
     return(

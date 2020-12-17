@@ -1,5 +1,5 @@
 import React from 'react';
-import quadsImage from '../images/quads.png';
+import quadsImage from '../images/quads/quads.png';
 
 function Quads() {
     return(

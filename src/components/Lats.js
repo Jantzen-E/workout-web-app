@@ -1,13 +1,13 @@
 import React from 'react';
-import latsImage from '../images/lats.jpg';
+import latsImage from '../images/lats/lats.jpg';
 import trapVideo from '../videos/video.mp4';
-import pullUpThumbnail from '../images/pullUpThumbnail.jpg';
-import lawnmowerThumbnail from '../images/lawnmowerThumbnail.jpg';
-import heavyPantsThumbnail from '../images/heavyPantsThumbnail.jpg';
-import bentOverRowThumbnail from '../images/bentOverRow.gif';
-import backFlyThumbnail from '../images/backFly.jpg';
-import bananaRollThumbnail from '../images/bananaRollThumbnail.jpg';
-import towelLatThumbnail from '../images/towelLatThumbnail.jpg';
+import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
+import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
+import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
+import bentOverRowThumbnail from '../images/lats/bentOverRow.gif';
+import backFlyThumbnail from '../images/lats/backFly.jpg';
+import bananaRollThumbnail from '../images/lats/bananaRollThumbnail.jpg';
+import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
 
 function Lats() {
     return(

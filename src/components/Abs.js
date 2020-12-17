@@ -1,7 +1,7 @@
 import React from 'react';
-import absImage from '../images/abs.jpg';
-import obliquesImage from '../images/obliques.jpg';
-import serratusImage from '../images/serratus.jpg';
+import absImage from '../images/abs/abs.jpg';
+import obliquesImage from '../images/abs/obliques.jpg';
+import serratusImage from '../images/abs/serratus.jpg';
 
 function Abs() {
     return(

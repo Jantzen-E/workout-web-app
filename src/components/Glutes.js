@@ -1,6 +1,6 @@
 import React from 'react';
-import glutesImage from '../images/glutes.png';
-import glutesImage2 from '../images/glutes2.jpg';
+import glutesImage from '../images/glutes/glutes.png';
+import glutesImage2 from '../images/glutes/glutes2.jpg';
 
 function Glutes() {
     return(

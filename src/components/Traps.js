@@ -1,8 +1,8 @@
 import React from 'react';
-import trapsImage from '../images/traps.jpg';
+import trapsImage from '../images/traps/traps.jpg';
 import trapVideo from '../videos/video.mp4';
-import shrugThumbnail from '../images/shrugThumbnail.jpg';
-import neckBridgeThumbnail from '../images/neckBridgeThumbnail.jpg';
+import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
+import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
 
 function Traps() {
     return(

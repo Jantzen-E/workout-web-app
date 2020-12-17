@@ -1,6 +1,6 @@
 import React from 'react';
-import abductorsImage from '../images/abductors.jpg';
-import abductorsImage2 from '../images/abductors2.jpg';
+import abductorsImage from '../images/abductors/abductors.jpg';
+import abductorsImage2 from '../images/abductors/abductors2.jpg';
 
 function Abductors() {
     return(

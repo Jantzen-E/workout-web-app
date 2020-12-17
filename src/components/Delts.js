@@ -1,16 +1,16 @@
 import React from 'react';
-import delts from '../images/delts.png';
-import delts2 from '../images/delts.jpg';
+import delts from '../images/delts/delts.png';
+import delts2 from '../images/delts/delts.jpg';
 import trapVideo from '../videos/video.mp4';
-import armRaiseThumbnail from '../images/armRaiseThumbnail.jpg';
-import scarecrowThumbnail from '../images/scarecrowThumbnail.jpg';
-import shoulderFlyThumbnail from '../images/shoulderFlyThumbnail.jpg';
-import shoulderPressThumbnail from '../images/shoulderPressThumbnail.jpg';
-import poursThumbnail from '../images/pours.jpg';
-import circlesThumbnail from '../images/circlesThumbnail.jpg';
-import uprightRowThumbnail from '../images/uprightRowThumbnail.jpg';
-import ypressThumbnail from '../images/ypressThumbnail.jpg';
-import pikeThumbnail from '../images/pikeThumbnail.jpg';
+import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
+import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
+import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
+import shoulderPressThumbnail from '../images/delts/shoulderPressThumbnail.jpg';
+import poursThumbnail from '../images/delts/pours.jpg';
+import circlesThumbnail from '../images/delts/circlesThumbnail.jpg';
+import uprightRowThumbnail from '../images/delts/uprightRowThumbnail.jpg';
+import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
+import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 
 function Delts() {
     return(

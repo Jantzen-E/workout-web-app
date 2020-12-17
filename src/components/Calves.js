@@ -1,5 +1,5 @@
 import React from 'react';
-import calvesImage from '../images/calves.jpg';
+import calvesImage from '../images/calves/calves.jpg';
 
 function Calves() {
     return(

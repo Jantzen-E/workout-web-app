@@ -1,5 +1,5 @@
 import React from 'react';
-import adductorsImage from '../images/adductors.jpg';
+import adductorsImage from '../images/adductors/adductors.jpg';
 
 function Adductors() {
     return(

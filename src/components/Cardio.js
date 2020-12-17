@@ -1,5 +1,5 @@
 import React from 'react';
-import cardioImage from '../images/heart.jpg';
+import cardioImage from '../images/cardio/heart.jpg';
 
 function Cardio() {
     return(

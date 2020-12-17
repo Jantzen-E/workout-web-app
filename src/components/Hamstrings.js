@@ -1,5 +1,5 @@
 import React from 'react';
-import hamstringsImage from '../images/hamstrings.jpg';
+import hamstringsImage from '../images/hamstrings/hamstrings.jpg';
 
 function Hamstrings() {
     return(
