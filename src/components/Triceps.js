@@ -1,7 +1,6 @@
 import React from 'react';
 import tricepsImage from '../images/triceps.png';
 import trapVideo from '../videos/video.mp4';
-import supinationThumbnail from '../images/supinationThumbnail.jpg';
 import diamondPushupThumbnail from '../images/diamondPushupThumbnail.jpg';
 import sideTriRiseThumbnail from '../images/sideTriRiseThumbnail.JPG';
 import triPushupThumbnail from '../images/triPushupThumbnail.png';

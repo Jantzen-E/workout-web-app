@@ -1,7 +1,21 @@
 import React from 'react';
 import pecsImage from '../images/pecs.jpg';
 import trapVideo from '../videos/video.mp4';
-import supinationThumbnail from '../images/supinationThumbnail.jpg';
+import inclineBenchThumbnail from '../images/inclineBenchThumbnail.jpg';
+import benchPressThumbnail from '../images/benchPressThumbnail.jpg';
+import declineBenchThumbnail from '../images/declineBenchThumbnail.png';
+import dumbbellPressThumbnail from '../images/dumbbellPressThumbnail.jpg';
+import flyCrossoverThumbnail from '../images/flyCrossoverThumbnail.jpg';
+import mountainClimberThumbnail from '../images/mountainClimberThumbnail.jpg';
+import standardPushupThumbnail from '../images/standardPushupThumbnail.jpg';
+import militaryPushThumbnail from '../images/militaryPushThumbnail.jpg';
+import widePushThumbnail from '../images/widePushThumbnail.jpg';
+import declinePushThumbnail from '../images/declinePushThumbnail.jpg';
+import divePushThumbnail from '../images/divePushThumbnail.jpg';
+import staggeredThumbnail from '../images/staggeredThumbnail.jpg';
+import prisonCellThumbnail from '../images/prisonCellThumbnail.jpg';
+import sloMoThumbnail from '../images/sloMoThumbnail.jpg';
+import sidePushThumbnail from '../images/sidePushThumbnail.jpg';
 
 function Pecs() {
     return(
@@ -18,7 +32,7 @@ function Pecs() {
                     <td className="nameOfExercise">incline bench press</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -29,7 +43,7 @@ function Pecs() {
                     <td className="nameOfExercise">flat bench press</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ benchPressThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -40,7 +54,7 @@ function Pecs() {
                     <td className="nameOfExercise">decline bench press</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ declineBenchThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -51,7 +65,7 @@ function Pecs() {
                     <td className="nameOfExercise">chest dumbell press</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ dumbbellPressThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -59,10 +73,10 @@ function Pecs() {
                 </tr>
                 <tr>
                     <td></td>
-                    <td className="nameOfExercise">chest flys (3 directions)</td>
+                    <td className="nameOfExercise">chest flys/cable crossovers (3 directions)</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -73,7 +87,7 @@ function Pecs() {
                     <td className="nameOfExercise">mountain climber pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ mountainClimberThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -84,7 +98,7 @@ function Pecs() {
                     <td className="nameOfExercise">standard pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ standardPushupThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -95,7 +109,7 @@ function Pecs() {
                     <td className="nameOfExercise">military pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ militaryPushThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -106,7 +120,7 @@ function Pecs() {
                     <td className="nameOfExercise">wide pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ widePushThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -117,18 +131,7 @@ function Pecs() {
                     <td className="nameOfExercise">decline pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td className="nameOfExercise">diamond pushups</td>
-                    <td className="explanation">explanation here</td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ declinePushThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -139,7 +142,7 @@ function Pecs() {
                     <td className="nameOfExercise">dive bomber pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ divePushThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -150,7 +153,7 @@ function Pecs() {
                     <td className="nameOfExercise">staggered hands pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ staggeredThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -161,18 +164,7 @@ function Pecs() {
                     <td className="nameOfExercise">prison cell pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
-                            <source src={ trapVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td className="nameOfExercise">walking pushups</td>
-                    <td className="explanation">explanation here</td>
-                    <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ prisonCellThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -183,7 +175,7 @@ function Pecs() {
                     <td className="nameOfExercise">slo-mo pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ sloMoThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
@@ -194,7 +186,7 @@ function Pecs() {
                     <td className="nameOfExercise">side to side pushups</td>
                     <td className="explanation">explanation here</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ sidePushThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
