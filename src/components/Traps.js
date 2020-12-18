@@ -1,8 +1,9 @@
 import React from 'react';
 import trapsImage from '../images/traps/traps.jpg';
-import trapVideo from '../videos/video.mp4';
-import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
 import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
+import neckBridgeVideo from '../videos/traps/videoemail.mp4';
+import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
+import shrugVideo from '../videos/traps/video.mp4';
 
 function Traps() {
     return(
@@ -10,7 +11,7 @@ function Traps() {
             <table>
             <tr className="headings">
                 <th className="muscleGroup">Traps</th>
-                <th>Name of exercise</th>
+                <th>Exercise</th>
                 <th>Instructions</th>
                 <th>Examples</th>
             </tr>
@@ -23,8 +24,8 @@ function Traps() {
                     Go all the way to 1 and then back up to 10 following this pattern.
                 </td>
                 <td>
-                    <video width="320" height="240" autoplay controls muted poster={ shrugThumbnail }>
-                        <source src={ trapVideo } type="video/mp4"/>
+                    <video width="432" height="240" autoplay controls muted poster={ shrugThumbnail }>
+                        <source src={ shrugVideo } type="video/mp4"/>
                         Your browser does not support the video tag
                     </video>
                 </td>
@@ -37,8 +38,8 @@ function Traps() {
                     Very carefully rock back and forth while controlling the movement with your neck.
                 </td>
                 <td>
-                    <video width="320" height="240" autoplay controls muted poster={ neckBridgeThumbnail }>
-                        <source src={ trapVideo } type="video/mp4"/>
+                    <video width="432" height="240" autoplay controls muted poster={ neckBridgeThumbnail }>
+                        <source src={ neckBridgeVideo } type="video/mp4"/>
                         Your browser does not support the video tag
                     </video>
                 </td>

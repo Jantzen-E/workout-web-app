@@ -3,18 +3,18 @@ import forearmsImage from '../images/forearms/forearms.jpg';
 
 function Forearms() {
     return(
-        <div>
+        <div className="table">
             <table>
-                <tr>
+                <tr className="headings">
                     <th className="muscleGroup">Forearms</th>
-                    <th>How to target the forearms</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Example</th>
                 </tr>
                 <tr>
                     <td><img src={ forearmsImage } className="forearmsImage" alt="forearm muscles"></img></td>
-                    <td>Weighted arm raises</td>
-                    <td>Hold weight in each hand and shrug your shoulders</td>
+                    <td className="nameOfExercise">Weighted arm raises</td>
+                    <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                     <td>Video goes here</td>
                 </tr>
             </table>

@@ -1,7 +1,7 @@
 import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
-import trapVideo from '../videos/video.mp4';
+import trapVideo from '../videos/traps/video.mp4';
 import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
@@ -18,7 +18,7 @@ function Delts() {
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Deltoids</th>
-                    <th>Name of exercise</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Examples</th>
                 </tr>

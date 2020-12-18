@@ -1,6 +1,6 @@
 import React from 'react';
 import tricepsImage from '../images/triceps/triceps.png';
-import trapVideo from '../videos/video.mp4';
+import trapVideo from '../videos/traps/video.mp4';
 import diamondPushupThumbnail from '../images/triceps/diamondPushupThumbnail.jpg';
 import sideTriRiseThumbnail from '../images/triceps/sideTriRiseThumbnail.JPG';
 import triPushupThumbnail from '../images/triceps/triPushupThumbnail.png';
@@ -21,7 +21,7 @@ function Triceps() {
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Triceps</th>
-                    <th>Name of exercise</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Examples</th>
                 </tr>

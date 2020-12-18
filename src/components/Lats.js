@@ -1,6 +1,6 @@
 import React from 'react';
 import latsImage from '../images/lats/lats.jpg';
-import trapVideo from '../videos/video.mp4';
+import trapVideo from '../videos/traps/video.mp4';
 import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
 import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
 import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
@@ -15,7 +15,7 @@ function Lats() {
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Lats</th>
-                    <th>Name of exercise</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Examples</th>
                 </tr>

@@ -1,6 +1,6 @@
 import React from 'react';
 import pecsImage from '../images/pecs/pecs.jpg';
-import trapVideo from '../videos/video.mp4';
+import trapVideo from '../videos/traps/video.mp4';
 import inclineBenchThumbnail from '../images/pecs/inclineBenchThumbnail.jpg';
 import benchPressThumbnail from '../images/pecs/benchPressThumbnail.jpg';
 import declineBenchThumbnail from '../images/pecs/declineBenchThumbnail.png';
@@ -23,7 +23,7 @@ function Pecs() {
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Pecs</th>
-                    <th>Name of exercise</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Examples</th>
                 </tr>

@@ -1,6 +1,6 @@
 import React from 'react';
 import bicepsImage from '../images/biceps/biceps.jpg';
-import trapVideo from '../videos/video.mp4';
+import trapVideo from '../videos/traps/video.mp4';
 import supinationThumbnail from '../images/biceps/supinationThumbnail.jpg';
 import inOutThumbnail from '../images/biceps/inOutThumbnail.jpg';
 import staticThumbnail from '../images/biceps/staticThumbnail.jpg';
@@ -25,7 +25,7 @@ function Biceps() {
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Biceps</th>
-                    <th>Name of exercise</th>
+                    <th>Exercise</th>
                     <th>Instructions</th>
                     <th>Examples</th>
                 </tr>
