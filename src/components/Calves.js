@@ -1,7 +1,8 @@
 import React from 'react';
 import calvesImage from '../images/calves/calves.jpg';
 import trapVideo from '../videos/traps/video.mp4';
-import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
+import calfRaiseThumbnail from '../images/calves/calfRaiseThumbnail.jpg';
+import squatCalfRaiseThumbnail from '../images/calves/squatCalfRaiseThumbnail.jpg';
 
 function Calves() {
     return(
@@ -15,10 +16,21 @@ function Calves() {
                 </tr>
                 <tr>
                     <td><img src={ calvesImage } className="calvesImage" alt="calf muscles"></img></td>
-                    <td className="nameOfExercise">Weighted arm raises</td>
+                    <td className="nameOfExercise">3 angle calf raises</td>
                     <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                     <td>
-                        <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                        <video width="320" height="240" autoplay controls muted poster={ calfRaiseThumbnail }>
+                            <source src={ trapVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Squat calf raises</td>
+                    <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                    <td>
+                        <video width="320" height="240" autoplay controls muted poster={ squatCalfRaiseThumbnail }>
                             <source src={ trapVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
