@@ -6,8 +6,6 @@ import exerciseBallThumbnail from '../images/hamstrings/exerciseBallThumbnail.jp
 import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
 import stiffLegThumbnail from '../images/hamstrings/stiffLegThumbnail.jpg';
 import lungeThumbnail from '../images/hamstrings/lungeThumbnail.jpg';
-import sideLungeThumbnail from '../images/hamstrings/sideLungeThumbnail.jpg';
-import stepOutThumbnail from '../images/hamstrings/stepOutThumbnail.png';
 
 function Hamstrings() {
     return(
@@ -74,7 +72,7 @@ function Hamstrings() {
                         </video>
                     </td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td></td>
                     <td className="nameOfExercise">side lunges</td>
                     <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
@@ -84,8 +82,8 @@ function Hamstrings() {
                             Your browser does not support the video tag
                         </video>
                     </td>
-                </tr>
-                <tr>
+                </tr> */}
+                {/* <tr>
                     <td></td>
                     <td className="nameOfExercise">banded step-outs</td>
                     <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
@@ -95,7 +93,7 @@ function Hamstrings() {
                             Your browser does not support the video tag
                         </video>
                     </td>
-                </tr>
+                </tr> */}
             </table>
         </div>
     )
