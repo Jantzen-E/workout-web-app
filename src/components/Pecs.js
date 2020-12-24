@@ -19,7 +19,7 @@ import sidePushThumbnail from '../images/pecs/sidePushThumbnail.jpg';
 
 function Pecs() {
     return(
-        <div>
+        <div className="App">
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Pecs</th>

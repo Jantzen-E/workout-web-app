@@ -17,7 +17,7 @@ import cobraThumbnail from '../images/triceps/cobraThumbnail.jpg';
 
 function Triceps() {
     return(
-        <div>
+        <div className="App">
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Triceps</th>

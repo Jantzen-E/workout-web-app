@@ -21,7 +21,7 @@ import legCurlThumbnail from '../images/biceps/legCurlThumbnail.jpg';
 
 function Biceps() {
     return(
-        <div>
+        <div className="App">
             <table>
                 <tr className="headings">
                     <th className="muscleGroup">Biceps</th>
