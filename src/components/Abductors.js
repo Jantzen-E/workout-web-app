@@ -4,6 +4,7 @@ import abductorsImage2 from '../images/abductors/abductors2.jpg';
 import trapVideo from '../videos/traps/video.mp4';
 import stepOutThumbnail from '../images/abductors/stepOutThumbnail.png';
 import hipAbductionThumbnail from '../images/abductors/hipAbductionThumbnail.jpg';
+import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
 
 function Abductors() {
     return(
@@ -33,6 +34,19 @@ function Abductors() {
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
+                                <source src={ trapVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Banded Hip Abduction</td>
+                        <td className="explanation">Swing your legs outward against weight that is pushing inward to 
+                            build your glutes.  See video for more details.
+                        </td>
+                        <td>
+                            <video width="320" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

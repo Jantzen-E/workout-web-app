@@ -3,7 +3,6 @@ import glutesImage from '../images/glutes/glutes.png';
 import glutesImage2 from '../images/glutes/glutes2.jpg';
 import trapVideo from '../videos/traps/video.mp4';
 import squatThumbnail from '../images/glutes/squatThumbnail.png';
-import hipAbductionThumbnail from '../images/glutes/hipAbductionThumbnail.jpg';
 import thrustThumbnail from '../images/glutes/thrustThumbnail.jpg';
 
 function Glutes() {
@@ -26,19 +25,6 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ squatThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Hip Abduction</td>
-                        <td className="explanation">Swing your legs outward against weight that is pushing inward to 
-                            build your glutes.  See video for more details.
-                        </td>
-                        <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
