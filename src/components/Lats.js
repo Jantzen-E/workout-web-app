@@ -12,7 +12,7 @@ import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
 function Lats() {
     return(
         <div className="App">
-            <div>
+            <div className="table">
                 <table>
                     <tr className="headings">
                         <th className="muscleGroup">Lats</th>

@@ -22,6 +22,7 @@ import Calves from './components/Calves.js';
 import Adductors from './components/Adductors.js';
 import Abductors from './components/Abductors.js';
 import Cardio from './components/Cardio.js';
+import Footer from './components/Footer.js';
 
 export default class App extends Component {
   render() {
@@ -77,6 +78,7 @@ export default class App extends Component {
             <Route exact path="/cardio">
               <Cardio />
             </Route>
+        <Footer />
       </Router>
     );
   }
