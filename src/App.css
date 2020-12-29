@@ -350,6 +350,10 @@ li {
   color: white;
   padding-left: 20%;
   padding-right: 20%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1400px 1000px;
 }
 
 .questions {

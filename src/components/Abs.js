@@ -11,6 +11,8 @@ import reverseCrThumbnail from '../images/abs/reverseCrThumbnail.jpg';
 import scissorThumbnail from '../images/abs/scissorThumbnail.jpg';
 import flutterThumbnail from '../images/abs/flutterThumbnail.jpg';
 import twistThumbnail from '../images/abs/twistThumbnail.jpg';
+import sideCrunchThumbnail from '../images/abs/sideCrunchThumbnail.jpg';
+import heelTouchThumbnail from '../images/abs/heelTouchThumbnail.jpg';
 
 function Abs() {
     return(
@@ -105,7 +107,7 @@ function Abs() {
                         <td className="nameOfExercise">Side Crunches</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ sideCrunchThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -138,7 +140,7 @@ function Abs() {
                         <td className="nameOfExercise">heel touches</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ heelTouchThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
