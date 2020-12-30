@@ -13,6 +13,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-align: center;
 }
 
+/* .homePage {
+  background-image: url('https://www.roguefitness.com/media/catalog/product/cache/1/rogue_header_2015/472321edac810f9b2465a359d8cdc0b5/r/o/rogue-dumbbells-h.jpg');
+} */
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -291,7 +295,7 @@ img {
   color: white;
   padding: 4px;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.6em;
   text-decoration: none;
   border: 1px solid white;
   border-radius: 10%;
@@ -315,8 +319,18 @@ h3 {
   font-size: 1.2em;
 }
 
+h4 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 h1 {
-  font-size: 4em;
+  font-size: 5em;
 }
 
 ul.navbar {
@@ -332,6 +346,9 @@ ul.navbar {
   background-color: black;
   color: white;
   padding: 3.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.table {
@@ -354,12 +371,27 @@ li {
   background-attachment: fixed;
   background-position: center;
   background-size: 1400px 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .questions {
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1.7em;
   text-decoration: underline;
   text-decoration-style: double;
   text-decoration-color: rgb(192, 12, 12);
+}
+
+details {
+  padding-bottom: 5%;
+}
+
+summary {
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.3em;
 }
