@@ -3,7 +3,6 @@ import absImage from '../images/abs/abs.jpg';
 import obliquesImage from '../images/abs/obliques.jpg';
 import serratusImage from '../images/abs/serratus.jpg';
 import trapVideo from '../videos/traps/video.mp4';
-import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
 import bicycleThumbnail from '../images/abs/bicycleThumbnail.jpg';
 import heelsToHeavensThumbnail from '../images/abs/heelsToHeavensThumbnail.jpg';
 import crunchThumbnail from '../images/abs/crunchThumbnail.jpg';
@@ -20,6 +19,14 @@ import hangThumbnail from '../images/abs/hangThumbnail.jpg';
 import wideSitThumbnail from '../images/abs/wideSitThumbnail.jpg';
 import legClimbThumbnail from '../images/abs/legClimbThumbnail.jpg';
 import jumpInThumbnail from '../images/abs/jumpInThumbnail.jpg';
+import circleThumbnail from '../images/abs/circleThumbnail.jpg';
+import sitUpThumbnail from '../images/abs/sitUpThumbnail.jpg';
+import legRaiseThumbnail from '../images/abs/legRaiseThumbnail.jpg';
+import crossCrunchThumbnail from '../images/abs/crossCrunchThumbnail.jpg';
+import vUpThumbnail from '../images/abs/vUpThumbnail.jpg';
+import obliqueVThumbnail from '../images/abs/obliqueVThumbnail.jpg';
+import wipersThumbnail from '../images/abs/wipersThumbnail.jpg';
+import angleThumbnail from '../images/abs/angleThumbnail.jpg';
 
 function Abs() {
     return(
@@ -125,7 +132,7 @@ function Abs() {
                         <td className="nameOfExercise">Circle Crunches</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ circleThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -136,7 +143,7 @@ function Abs() {
                         <td className="nameOfExercise">Sit ups</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ sitUpThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -235,7 +242,7 @@ function Abs() {
                         <td className="nameOfExercise">Leg raises</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ legRaiseThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -246,7 +253,7 @@ function Abs() {
                         <td className="nameOfExercise">Cross crunches</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ crossCrunchThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -257,7 +264,7 @@ function Abs() {
                         <td className="nameOfExercise">Roll up v-up</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ vUpThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -268,7 +275,7 @@ function Abs() {
                         <td className="nameOfExercise">Oblique v-up</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ obliqueVThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -279,7 +286,7 @@ function Abs() {
                         <td className="nameOfExercise">Windshield wipers</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ wipersThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -290,7 +297,7 @@ function Abs() {
                         <td className="nameOfExercise">5 angle leg crunches</td>
                         <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="320" height="240" autoplay controls muted poster={ angleThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

@@ -6,6 +6,7 @@ import wallSitThumbnail from '../images/quads/wallSitThumbnail.jpg';
 import legPressThumbnail from '../images/quads/legPressThumbnail.jpg';
 import extensionThumbnail from '../images/quads/extensionThumbnail.jpg';
 import bulgarianThumbnail from '../images/quads/bulgarianThumbnail.jpg';
+import closeSquatThumbnail from '../images/quads/closeSquatThumbnail.jpg';
 
 function Quads() {
     return(
@@ -79,6 +80,19 @@ function Quads() {
                         </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ bulgarianThumbnail }>
+                                <source src={ trapVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Close-stance squats</td>
+                        <td className="explanation">Do a wall sit but instead of holding still, pulse up and down so that
+                            your 
+                        </td>
+                        <td>
+                            <video width="320" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
