@@ -32,7 +32,10 @@ function Forearms() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Weighted rope twist</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Hold your arms out straight in front of you with a bar that 
+                            has a rope with weight on it.  Roll the weight up and then back down.  Can be done with
+                            palm up grip and palm down grip and can be rolled toward you and away from you.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ twistThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
@@ -43,7 +46,9 @@ function Forearms() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Bar hang</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Hang from a pull up bar for as long as you can and that will
+                            strengthen your grip and your forearms
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ hangThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>

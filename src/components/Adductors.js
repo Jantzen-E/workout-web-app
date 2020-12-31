@@ -18,7 +18,10 @@ function Adductors() {
                     <tr>
                         <td><img src={ adductorsImage } className="adductorsImage" alt="inner thigh muscles"></img></td>
                         <td className="nameOfExercise">slide lunges</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Follow the form shown in the video to see how to perform this
+                            exercise.  You can use socks on a tile floor or the furniture sliders on carpet to complete
+                            the slide lunge.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ sideLungeThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
@@ -29,7 +32,9 @@ function Adductors() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Hip adductor machine</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">This machine allows you to pull your legs together and squeeze in 
+                            the middle to work out the leg adductors.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ hipAdductorThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>

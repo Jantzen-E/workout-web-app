@@ -47,8 +47,9 @@ function Glutes() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Banded hip abduction</td>
-                        <td className="explanation">Push your hips up toward the ceiling when there is weight pressing
-                            down for resistance.  Repeat until failure.
+                        <td className="explanation">Anchor a band to something solid then around your ankle.  Extend
+                            your ankle outward away from where the anchor point is and that will work your hip abductors
+                            and your glutes.
                         </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
