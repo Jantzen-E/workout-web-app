@@ -20,7 +20,9 @@ function Cardio() {
                     <tr>
                         <td><img src={ cardioImage } className="cardioImage" alt="heart muscle"></img></td>
                         <td className="nameOfExercise">Jump rope</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Jump the rope as shown in the video for as long as you can to get a 
+                            cardio workout that will help you to burn calories.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
@@ -31,7 +33,9 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Cycling</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Use a real bike or the cycling exercise machines for a great cardio
+                            workout.  You can adjust resistance and speed to change the intensity of the workout.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ cyclingThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
@@ -42,7 +46,9 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Jumping jacks</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Move your legs out when your hands go together in a Jumping
+                            motion as shown in the video.  Do this as long as you want or can.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ jacksThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
@@ -53,7 +59,11 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Burpees</td>
-                        <td className="explanation">Hold weight in each hand and shrug your shoulders</td>
+                        <td className="explanation">Start in the standing position and crouch down until your hands
+                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
+                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
+                            again.  Repeat as many times as you can.
+                        </td>
                         <td>
                             <video width="320" height="240" autoplay controls muted poster={ burpeesThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
