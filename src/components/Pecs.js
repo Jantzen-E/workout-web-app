@@ -1,6 +1,6 @@
 import React from 'react';
 import pecsImage from '../images/pecs/pecs.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import inclineBenchThumbnail from '../images/pecs/inclineBenchThumbnail.jpg';
 import benchPressThumbnail from '../images/pecs/benchPressThumbnail.jpg';
 import declineBenchThumbnail from '../images/pecs/declineBenchThumbnail.png';
@@ -35,8 +35,8 @@ function Pecs() {
                             portion of the chest as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -48,8 +48,8 @@ function Pecs() {
                             the mid chest as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ benchPressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ benchPressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -61,8 +61,8 @@ function Pecs() {
                             upwards to work out the lower portion of the chest as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ declineBenchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ declineBenchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -74,8 +74,8 @@ function Pecs() {
                             your hands to get closer together at the top of the exercise.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ dumbbellPressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ dumbbellPressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -87,8 +87,8 @@ function Pecs() {
                             as shown in the video.  This will work all areas of the pec muscles.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -100,8 +100,8 @@ function Pecs() {
                             elbow.  Push up then switch legs and repeat.  See video for more details.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ mountainClimberThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ mountainClimberThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -111,8 +111,8 @@ function Pecs() {
                         <td className="nameOfExercise">standard pushups</td>
                         <td className="explanation">Do a standard width push up and repeat until failure</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ standardPushupThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ standardPushupThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -124,8 +124,8 @@ function Pecs() {
                             that they are directly under your shoulders.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ militaryPushThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ militaryPushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -135,8 +135,8 @@ function Pecs() {
                         <td className="nameOfExercise">wide pushups</td>
                         <td className="explanation">Do a push up but with your hands placed wider than your shoulders</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ widePushThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ widePushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -148,8 +148,8 @@ function Pecs() {
                             are so that you can work your upper chest as you do push ups until failure
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ declinePushThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ declinePushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -159,8 +159,8 @@ function Pecs() {
                         <td className="nameOfExercise">dive bomber pushups</td>
                         <td className="explanation">See video for details on how to perform this exercise</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ divePushThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ divePushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -172,8 +172,8 @@ function Pecs() {
                             every push up
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ staggeredThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ staggeredThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -186,8 +186,8 @@ function Pecs() {
                             opposite leg.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ prisonCellThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ prisonCellThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -200,8 +200,8 @@ function Pecs() {
                             do both lowering and pushing up very slowly.  Repeat until failure.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sloMoThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sloMoThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -214,8 +214,8 @@ function Pecs() {
                             opposite hand out to the side and perform another push up.  Repeat until failure.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sidePushThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sidePushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

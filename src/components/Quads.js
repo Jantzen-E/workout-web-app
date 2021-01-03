@@ -1,6 +1,6 @@
 import React from 'react';
 import quadsImage from '../images/quads/quads.png';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import pistolSquatThumbnail from '../images/quads/pistolSquatThumbnail.jpg';
 import wallSitThumbnail from '../images/quads/wallSitThumbnail.jpg';
 import legPressThumbnail from '../images/quads/legPressThumbnail.jpg';
@@ -27,8 +27,8 @@ function Quads() {
                             failure then switch legs.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pistolSquatThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ pistolSquatThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -40,8 +40,8 @@ function Quads() {
                             your body is moving up and down the whole time.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ wallSitThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ wallSitThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -54,8 +54,8 @@ function Quads() {
                             Repeat as needed.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ legPressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ legPressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -67,8 +67,8 @@ function Quads() {
                             Extend your legs while pushing the weight up and slowly lower them back down.  Repeat as needed. 
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ extensionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ extensionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -81,8 +81,8 @@ function Quads() {
                             body weight back up using your leg muscles.  Repeat as needed. 
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bulgarianThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ bulgarianThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -95,8 +95,8 @@ function Quads() {
                             it is a great overall leg workout.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

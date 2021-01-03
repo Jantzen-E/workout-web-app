@@ -2,7 +2,7 @@ import React from 'react';
 import absImage from '../images/abs/abs.jpg';
 import obliquesImage from '../images/abs/obliques.jpg';
 import serratusImage from '../images/abs/serratus.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import bicycleThumbnail from '../images/abs/bicycleThumbnail.jpg';
 import heelsToHeavensThumbnail from '../images/abs/heelsToHeavensThumbnail.jpg';
 import crunchThumbnail from '../images/abs/crunchThumbnail.jpg';
@@ -47,8 +47,8 @@ function Abs() {
                             elbow taps your knee on each repetition.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bicycleThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ bicycleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -60,8 +60,8 @@ function Abs() {
                             pelvis off the ground in a controlled way as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ heelsToHeavensThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ heelsToHeavensThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -73,8 +73,8 @@ function Abs() {
                             neck.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ crunchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ crunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -86,8 +86,8 @@ function Abs() {
                             toward your upper body.  It is the reverse of the exercise above. 
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ reverseCrThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ reverseCrThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -99,8 +99,8 @@ function Abs() {
                             shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ scissorThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ scissorThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -112,8 +112,8 @@ function Abs() {
                             in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ flutterThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ flutterThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -126,8 +126,8 @@ function Abs() {
                             your hips.  Do this as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ twistThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ twistThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -139,8 +139,8 @@ function Abs() {
                             crunch.  See video for the correct form.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sideCrunchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sideCrunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -153,8 +153,8 @@ function Abs() {
                             counter-clock-wise motion.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ circleThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ circleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -166,8 +166,8 @@ function Abs() {
                             Sit up until your chest touches your legs then lower your body back down.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sitUpThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sitUpThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -179,8 +179,8 @@ function Abs() {
                             side to side so that your can touch your heels.  Repeat as needed.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ heelTouchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ heelTouchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -192,8 +192,8 @@ function Abs() {
                             legs toward your body to contract your ab muscles.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ kneeCrunchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ kneeCrunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -205,8 +205,8 @@ function Abs() {
                             and raise your hips straight up and then lower them.  Repeat as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sideRaiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sideRaiseThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -219,8 +219,8 @@ function Abs() {
                             Repeat as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ inOutThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ inOutThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -232,8 +232,8 @@ function Abs() {
                             parallel to the ground.  Then lower them down and repeat as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hangThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ hangThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -246,8 +246,8 @@ function Abs() {
                             difficult, sit with your legs crossed as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ wideSitThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ wideSitThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -259,8 +259,8 @@ function Abs() {
                             focusing on using your ab muscles.  Then do it with the opposite leg.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ legClimbThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ legClimbThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -274,8 +274,8 @@ function Abs() {
                             these exercises for best results.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ jumpInThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ jumpInThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -287,8 +287,8 @@ function Abs() {
                             the floor.  Then lower them down slowly and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ legRaiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ legRaiseThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -298,8 +298,8 @@ function Abs() {
                         <td className="nameOfExercise">Cross crunches</td>
                         <td className="explanation">Crunch your right elbow up toward your left knee then vice versa.</td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ crossCrunchThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ crossCrunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -312,8 +312,8 @@ function Abs() {
                             as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ vUpThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ vUpThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -325,8 +325,8 @@ function Abs() {
                             knee as shown in the video.  Then do the same on your left side.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ obliqueVThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ obliqueVThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -338,8 +338,8 @@ function Abs() {
                             your legs like windshield wipers as shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ wipersThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ wipersThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -351,8 +351,8 @@ function Abs() {
                             are shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ angleThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

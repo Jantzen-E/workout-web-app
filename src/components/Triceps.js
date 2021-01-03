@@ -1,6 +1,6 @@
 import React from 'react';
 import tricepsImage from '../images/triceps/triceps.png';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import diamondPushupThumbnail from '../images/triceps/diamondPushupThumbnail.jpg';
 import sideTriRiseThumbnail from '../images/triceps/sideTriRiseThumbnail.JPG';
 import triPushupThumbnail from '../images/triceps/triPushupThumbnail.png';
@@ -33,8 +33,8 @@ function Triceps() {
                             the triceps.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ triPushupThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ triPushupThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -47,8 +47,8 @@ function Triceps() {
                             to target one tricep at a time.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sideTriRiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sideTriRiseThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -60,8 +60,8 @@ function Triceps() {
                             inward so that they make a diamond shape
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ diamondPushupThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ diamondPushupThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -74,8 +74,8 @@ function Triceps() {
                             at the elbow and lower the weights down next to your ears.  Then raise them up again.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ skullCrusherThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ skullCrusherThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -89,8 +89,8 @@ function Triceps() {
                             chair.  Lift your weight up until the tricep fully extends and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ chairDipThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ chairDipThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -103,8 +103,8 @@ function Triceps() {
                             Lower them back down to your chest and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ tricepPressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ tricepPressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -117,8 +117,8 @@ function Triceps() {
                             which will strenghten the tricep.  Lower your body and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sphinxPushupThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sphinxPushupThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -131,8 +131,8 @@ function Triceps() {
                             then extend your arms using your triceps which will lift your body up.  Repeat exercise.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ chairSkullCrusherThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ chairSkullCrusherThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -144,8 +144,8 @@ function Triceps() {
                             slowly lower the weight behind your head by bending the elbows.  Lift weight up again and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ triExtensionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ triExtensionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -157,8 +157,8 @@ function Triceps() {
                             your back slowly then lower them.  Follow the 3 different grips that are shown in the video.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ tricepKickbackThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ tricepKickbackThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -171,8 +171,8 @@ function Triceps() {
                             touch your clavicle.  Refer to the video for the correct form.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ clavShExtensionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ clavShExtensionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -185,8 +185,8 @@ function Triceps() {
                             for as long as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ isoBurnoutThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ isoBurnoutThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -198,8 +198,8 @@ function Triceps() {
                             your body will resemble the shape of a cobra.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ cobraThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ cobraThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

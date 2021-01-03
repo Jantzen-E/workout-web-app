@@ -1,9 +1,8 @@
 import React from 'react';
 import trapsImage from '../images/traps/traps.jpg';
 import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
-import neckBridgeVideo from '../videos/traps/videoemail.mp4';
 import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
-import shrugVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 
 function Traps() {
     return(
@@ -26,7 +25,7 @@ function Traps() {
                     </td>
                     <td>
                         <video width="432" height="240" autoplay controls muted poster={ shrugThumbnail }>
-                            <source src={ shrugVideo } type="video/mp4"/>
+                            <source src={ trainingVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
                     </td>
@@ -40,7 +39,7 @@ function Traps() {
                     </td>
                     <td>
                         <video width="432" height="240" autoplay controls muted poster={ neckBridgeThumbnail }>
-                            <source src={ neckBridgeVideo } type="video/mp4"/>
+                            <source src={ trainingVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
                     </td>

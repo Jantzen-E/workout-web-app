@@ -1,6 +1,6 @@
 import React from 'react';
 import adductorsImage from '../images/adductors/adductors.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import sideLungeThumbnail from '../images/adductors/sideLungeThumbnail.jpg';
 import hipAdductorThumbnail from '../images/adductors/hipAdductorThumbnail.jpg';
 
@@ -23,8 +23,8 @@ function Adductors() {
                             the slide lunge.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ sideLungeThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ sideLungeThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -36,8 +36,8 @@ function Adductors() {
                             the middle to work out the leg adductors.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hipAdductorThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ hipAdductorThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

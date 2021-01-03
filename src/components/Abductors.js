@@ -1,7 +1,7 @@
 import React from 'react';
 import abductorsImage from '../images/abductors/abductors.jpg';
 import abductorsImage2 from '../images/abductors/abductors2.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import stepOutThumbnail from '../images/abductors/stepOutThumbnail.png';
 import hipAbductionThumbnail from '../images/abductors/hipAbductionThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
@@ -26,8 +26,8 @@ function Abductors() {
                             your legs.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ stepOutThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ stepOutThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -39,8 +39,8 @@ function Abductors() {
                             them outward against the weight to focus on the abductors.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -53,8 +53,8 @@ function Abductors() {
                             and your glutes.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                            <video width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
