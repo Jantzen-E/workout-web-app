@@ -25,7 +25,7 @@ function Hamstrings() {
                             your legs toward your body then extend them again to complete a hamstring curl.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ curlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ curlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -39,7 +39,7 @@ function Hamstrings() {
                             glutes which will imitate a hamstring curl.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ exerciseBallThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ exerciseBallThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -53,7 +53,7 @@ function Hamstrings() {
                             and your hamstrings pull the weight of your body so that your body moves up and down.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ nordicCurlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ nordicCurlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -67,7 +67,7 @@ function Hamstrings() {
                             work there.  Check out the video for the correct form.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ stiffLegThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ stiffLegThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -82,7 +82,7 @@ function Hamstrings() {
                             with the other leg.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ lungeThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ lungeThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

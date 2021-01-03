@@ -39,7 +39,7 @@ function Biceps() {
                             your arm even more.  Lower the weight back down and then repeat with the other arm.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ supinationThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ supinationThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -54,7 +54,7 @@ function Biceps() {
                             them down slowly and repeat alternating between normal curls and wide curls.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ inOutThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ inOutThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -67,7 +67,7 @@ function Biceps() {
                             Perform the same exercise as above but with the hammer grip instead of the normal curl grip.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -81,7 +81,7 @@ function Biceps() {
                             lifting and lowering a hammer.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hammerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ hammerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -97,7 +97,7 @@ function Biceps() {
                             during the whole time while you are doing 4 curls with the other arm.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ staticThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ staticThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -111,7 +111,7 @@ function Biceps() {
                             of the regular curl position.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ staticHammerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ staticHammerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -127,7 +127,7 @@ function Biceps() {
                             and repeat instructions above.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ crossBodyThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ crossBodyThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -141,7 +141,7 @@ function Biceps() {
                             the regular curl position.  You do not have to sit down for this exercise.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ crossHammerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ crossHammerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -163,7 +163,7 @@ function Biceps() {
                             video for further explanation.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ halfCurlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ halfCurlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -177,7 +177,7 @@ function Biceps() {
                             instead of the normal curl grip.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ halfHammerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ halfHammerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -191,7 +191,7 @@ function Biceps() {
                             so that the barbell or dumbells drag straight up close to your body.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -205,7 +205,7 @@ function Biceps() {
                             so that the back side of your hand faces upward.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hammerPronationThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ hammerPronationThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -219,7 +219,7 @@ function Biceps() {
                             elbows pointing toward where the band is anchored.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ faceCurlsThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ faceCurlsThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -233,7 +233,7 @@ function Biceps() {
                             until they get close to your shoulders.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -247,7 +247,7 @@ function Biceps() {
                             then lower it down slowly.  Repeat as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ waiterThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ waiterThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -263,7 +263,7 @@ function Biceps() {
                             to get an isometric/eccentric exercise.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ burnoutThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ burnoutThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -283,7 +283,7 @@ function Biceps() {
                             These 2 exercises are great alternatives if you don't have dumbells or a barbell.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ legCurlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ legCurlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

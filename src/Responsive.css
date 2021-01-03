@@ -1,0 +1,142 @@
+@media screen and (max-width: 1000px) {
+    .navbarLinks {
+        font-size: 1.2em;
+    }
+
+    .questions {
+        font-size: 1.2em;
+    }
+
+    .headings {
+        font-size: 1em;
+    }
+
+    video { width: 324px;
+    }
+    
+    video { height: 180px;
+    }
+    
+    .trapsImage {
+        width: 120px;
+        height: 120px;
+    }
+      
+    .deltsImage {
+        width: 120px;
+        height: 82px;
+    }
+
+    .deltsImage2 {
+        width: 120px;
+        height: 115px;
+    }
+
+    .explanation {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .explanation {
+        font-size: .8em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    video { width: 180px;
+    }
+    
+    video { height: 100px;
+    }
+
+    .footer {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .questions {
+        font-size: .8em;
+    }
+
+    h3 {
+        font-size: .8em;
+    }
+
+    video { width: 144px;
+    }
+    
+    video { height: 80px;
+    }
+
+    .trapsImage {
+        width: 90px;
+        height: 90px;
+    }
+      
+    .trapsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .deltsImage {
+        width: 90px;
+        height: 62px;
+    }
+
+    .deltsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .deltsImage2 {
+        width: 86px;
+        height: 90px;
+    }
+
+    .deltsImage2:hover {
+        transform: scale(1.8);
+    }
+
+    .nameOfExercise {
+        font-size: .8em;
+    }
+
+    .explanation {
+        font-size: .6em;
+    }
+
+    ul.navbar {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .navbarLinks {
+        font-size: 1em;
+    }
+
+    .asterisk {
+        font-size: .7em;
+    }
+
+    .headings {
+        font-size: .8em;
+    }
+}
+
+/* @media screen and (max-width: 556px) {
+    div.table {
+        background-color: white;
+    }
+} */

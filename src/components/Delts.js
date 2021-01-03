@@ -32,7 +32,7 @@ function Delts() {
                             delt from a different angle. 
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -47,7 +47,7 @@ function Delts() {
                             Then rotate the weights up and back again until they are in the position you started in.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -63,7 +63,7 @@ function Delts() {
                             forearm and your bicep are at a 90 degree angle and do the exercise as explained above.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ shoulderFlyThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ shoulderFlyThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -78,7 +78,7 @@ function Delts() {
                             just above your shoulders.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -92,7 +92,7 @@ function Delts() {
                             get farther apart so that your body looks like a "Y" when they are fully extended.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ ypressThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -107,7 +107,7 @@ function Delts() {
                             liquid out.  Return to the first position and repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ poursThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ poursThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -122,7 +122,7 @@ function Delts() {
                             opposite way for 30 seconds.  Repeat as needed.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ circlesThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ circlesThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -138,7 +138,7 @@ function Delts() {
                             then repeat.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -153,7 +153,7 @@ function Delts() {
                             ground.  Then push your body back up until your arms are extended again.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pikeThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ pikeThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

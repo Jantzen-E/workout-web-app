@@ -23,7 +23,7 @@ function Forearms() {
                             curl.  Raise and lower the weight repeatedly with that grip to exercise your forearms
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ reverseCurlThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ reverseCurlThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -37,7 +37,7 @@ function Forearms() {
                             palm up grip and palm down grip and can be rolled toward you and away from you.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ twistThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ twistThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -50,7 +50,7 @@ function Forearms() {
                             strengthen your grip and your forearms
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ hangThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ hangThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

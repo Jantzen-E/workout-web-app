@@ -24,7 +24,7 @@ function Calves() {
                             pointed straight forward, then turned slightly inward for the 3 angles.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ calfRaiseThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ calfRaiseThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -37,7 +37,7 @@ function Calves() {
                             your body up using your calf muscles.  Raise and lower your body repeatedly as needed.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ squatCalfRaiseThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ squatCalfRaiseThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -53,7 +53,7 @@ function Calves() {
                             calves.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ anteriorTibialisThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ anteriorTibialisThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

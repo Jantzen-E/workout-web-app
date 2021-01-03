@@ -28,7 +28,7 @@ function Lats() {
                             your body upward until your head gets above the bar and slowly lower your body down again.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -42,7 +42,7 @@ function Lats() {
                             a lawnmower.  Then slowly lower the weight back down.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ lawnmowerThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ lawnmowerThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -57,7 +57,7 @@ function Lats() {
                             looks like you are pulling up heavy pants.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ heavyPantsThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ heavyPantsThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -73,7 +73,7 @@ function Lats() {
                             the weight there and slowly lower it back down.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bentOverRowThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ bentOverRowThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -90,7 +90,7 @@ function Lats() {
                             your biceps and forearms form a 90 degree angle. 
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ backFlyThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ backFlyThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -108,7 +108,7 @@ function Lats() {
                             process above.  This exercise will strenthen your core which includes muscles in your back.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bananaRollThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ bananaRollThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -124,7 +124,7 @@ function Lats() {
                             for a lat pulldown if you are at home and don't have workout equipment.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ towelLatThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ towelLatThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

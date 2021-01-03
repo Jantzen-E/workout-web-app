@@ -24,7 +24,7 @@ function Cardio() {
                             cardio workout that will help you to burn calories.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -37,7 +37,7 @@ function Cardio() {
                             workout.  You can adjust resistance and speed to change the intensity of the workout.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ cyclingThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ cyclingThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -50,7 +50,7 @@ function Cardio() {
                             motion as shown in the video.  Do this as long as you want or can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ jacksThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ jacksThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -65,7 +65,7 @@ function Cardio() {
                             again.  Repeat as many times as you can.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ burpeesThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ burpeesThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

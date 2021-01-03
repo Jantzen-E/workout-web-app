@@ -25,7 +25,7 @@ function Glutes() {
                             weight on your heels, then push your body back up with your legs.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ wideSquatThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ wideSquatThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -38,7 +38,7 @@ function Glutes() {
                             down for resistance.  Repeat until failure.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ thrustThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ thrustThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -52,7 +52,7 @@ function Glutes() {
                             and your glutes.
                         </td>
                         <td>
-                            <video width="320" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
                                 <source src={ trapVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

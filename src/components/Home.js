@@ -45,7 +45,7 @@ function Home() {
                         you can do more research if you don't find all the alternatives in this site.
                     </p>
             </details>
-            <div>
+            <div className="asterisk">
                 **Many of the exercises listed on this site work more than one muscle so they are found under the muscle 
                 group that is considered the primary muscle targeted**
             </div>
