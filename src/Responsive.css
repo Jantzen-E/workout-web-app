@@ -32,6 +32,21 @@
         height: 115px;
     }
 
+    .latsImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .bicepsImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tricepsImage {
+        width: 120px;
+        height: 83px;
+    }
+
     .explanation {
         font-size: 1em;
     }
@@ -107,6 +122,33 @@
 
     .deltsImage2:hover {
         transform: scale(1.8);
+    }
+
+    .latsImage {
+        width: 86px;
+        height: 86px;
+    }
+
+    .latsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .bicepsImage {
+        width: 86px;
+        height: 86px;
+    }
+
+    .bicepsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .tricepsImage {
+        width: 86px;
+        height: 59px;
+    }
+
+    .tricepsImage:hover {
+        transform: scale(1.7);
     }
 
     .nameOfExercise {

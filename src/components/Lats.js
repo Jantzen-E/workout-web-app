@@ -23,7 +23,7 @@ function Lats() {
                     <tr>
                         <td><img src={ latsImage } className="latsImage" alt="latissimus dorsi muscle"></img></td>
                         <td className="nameOfExercise">Pull-ups</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Raise both of your hands above your head and with an overhand grip, grab the bar.  Pull
                             your body upward until your head gets above the bar and slowly lower your body down again.
                         </td>
@@ -37,7 +37,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Lawnmower</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Lean forward and grab a dumbell with only one hand.  Pull the weight up as if you are starting
                             a lawnmower.  Then slowly lower the weight back down.
                         </td>
@@ -51,7 +51,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Heavy pants</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             With one foot slightly in front of the other, hold dumbells in each hand next to your ankles,
                             and pull the dumbells up until they almost touch the front of your shoulder.  The exercise
                             looks like you are pulling up heavy pants.
@@ -66,7 +66,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Reverse grip bent over row</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Grab a barbell or a dumbell in each hand with an underhand grip.  The weight will start 
                             by your knees with your body leaned forward slightly, and then you pull the weight up so
                             that your lats are engaged.  Your elbows will raise up behind your back and you squeeze
@@ -82,7 +82,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Back flys (bent arm & straight arm)</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Hold weights in each hand while standing up.  Bend forward until your torso is parallel with
                             the ground.  Let the weights hang under your chest.  Then extend them each to the side until 
                             they are parallel with the ground, then lower them slowly to the hanging position.  For the 
@@ -99,7 +99,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Banana roll</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Lay on your stomach and raise your ankles and upper torso off the ground so that just your
                             belly is touching the ground.  Hold that position for 30 seconds then roll over to your side.
                             Keep your ankles and shoulder off the ground for 30 seconds then roll to your back.  Keep your
@@ -117,7 +117,7 @@ function Lats() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Towell pull</td>
-                        <td clasName="explanation">
+                        <td className="explanation">
                             Lay on your stomach and hold a towel in your hands.  Lift up your head and hold the towel to your
                             chest while pulling your elbows back.  Then extend your arms all the way above your head while
                             keeping your hands wide (always pulling outward on the towell).  This exercise is a great substitute
