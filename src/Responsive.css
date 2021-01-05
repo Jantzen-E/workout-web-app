@@ -47,6 +47,76 @@
         height: 83px;
     }
 
+    .pecsImage {
+        width: 120px;
+        height: 66px;
+    }
+
+    .absImage {
+        width: 120px;
+        height: 67px;
+    }
+
+    .obliquesImage {
+        width: 120px;
+        height: 67px;
+    }
+
+    .serratusImage {
+        width: 120px;
+        height: 67px;
+    }
+
+    .forearmsImage {
+        width: 120px;
+        height: 67px;
+    }
+
+    .glutesImage {
+        width: 120px;
+        height: 84px;
+    }
+
+    .glutesImage2 {
+        width: 120px;
+        height: 107px;
+    }
+
+    .hamstringsImage {
+        width: 120px;
+        height: 100px;
+    }
+
+    .adductorsImage {
+        width: 120px;
+        height: 69px;
+    }
+
+    .abductorsImage {
+        width: 120px;
+        height: 171px;
+    }
+
+    .abductorsImage2 {
+        width: 120px;
+        height: 133px;
+    }
+
+    .quadsImage {
+        width: 120px;
+        height: 94px;
+    }
+
+    .calvesImage {
+        width: 120px;
+        height: 133px;
+    }
+
+    .cardioImage {
+        width: 120px;
+        height: 104px;
+    }
+
     .explanation {
         font-size: 1em;
     }
@@ -149,6 +219,133 @@
 
     .tricepsImage:hover {
         transform: scale(1.7);
+    }
+
+    .pecsImage {
+        width: 86px;
+        height: 48px;
+        transition: transform .2s;
+    }
+
+    .pecsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .absImage {
+        width: 86px;
+        height: 48px;
+    }
+
+    .absImage:hover {
+        transform: scale(1.8);
+    }
+
+    .obliquesImage {
+        width: 86px;
+        height: 48px;
+    }
+
+    .obliquesImage:hover {
+        transform: scale(1.8);
+    }
+
+    .serratusImage {
+        width: 86px;
+        height: 48px;
+    }
+
+    .serratusImage:hover {
+        transform: scale(1.8);
+    }
+
+    .forearmsImage {
+        width: 86px;
+        height: 48px;
+    }
+
+    .forearmsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .glutesImage {
+        width: 86px;
+        height: 60px;
+    }
+
+    .glutesImage:hover {
+        transform: scale(1.8);
+    }
+
+    .glutesImage2 {
+        width: 86px;
+        height: 77px;
+    }
+
+    .glutesImage2:hover {
+        transform: scale(1.8);
+    }
+
+    .hamstringsImage {
+        width: 86px;
+        height: 72px;
+    }
+
+    .hamstringsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .adductorsImage {
+        width: 86px;
+        height: 49px;
+    }
+
+    .adductorsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .abductorsImage {
+        width: 86px;
+        height: 123px;
+    }
+
+    .abductorsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .abductorsImage2 {
+        width: 86px;
+        height: 96px;
+    }
+
+    .abductorsImage2:hover {
+        transform: scale(1.8);
+    }
+
+    .quadsImage {
+        width: 86px;
+        height: 67px;
+    }
+
+    .quadsImage:hover {
+        transform: scale(1.8);
+    }
+
+    .calvesImage {
+        width: 86px;
+        height: 96px;
+    }
+
+    .calvesImage:hover {
+        transform: scale(1.8);
+    }
+
+    .cardioImage {
+        width: 86px;
+        height: 75px;
+    }
+
+    .cardioImage:hover {
+        transform: scale(1.8);
     }
 
     .nameOfExercise {
