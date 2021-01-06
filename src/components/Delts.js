@@ -1,7 +1,7 @@
 import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
@@ -33,7 +33,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -48,7 +48,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -64,7 +64,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ shoulderFlyThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -79,7 +79,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -93,7 +93,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -108,7 +108,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ poursThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -123,7 +123,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ circlesThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -139,7 +139,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -154,7 +154,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pikeThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

@@ -1,7 +1,7 @@
 import React from 'react';
 import glutesImage from '../images/glutes/glutes.png';
 import glutesImage2 from '../images/glutes/glutes2.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import wideSquatThumbnail from '../images/glutes/wideSquatThumbnail.jpg';
 import thrustThumbnail from '../images/glutes/thrustThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
@@ -26,7 +26,7 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ wideSquatThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -39,7 +39,7 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ thrustThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -53,7 +53,7 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

@@ -1,6 +1,6 @@
 import React from 'react';
 import latsImage from '../images/lats/lats.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
 import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
 import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
@@ -29,7 +29,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -43,7 +43,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ lawnmowerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -58,7 +58,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ heavyPantsThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -74,7 +74,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ bentOverRowThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -91,7 +91,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ backFlyThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -109,7 +109,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ bananaRollThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -125,7 +125,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ towelLatThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

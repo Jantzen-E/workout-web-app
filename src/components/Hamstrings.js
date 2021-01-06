@@ -1,6 +1,6 @@
 import React from 'react';
 import hamstringsImage from '../images/hamstrings/hamstrings.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import curlThumbnail from '../images/hamstrings/curlThumbnail.jpg';
 import exerciseBallThumbnail from '../images/hamstrings/exerciseBallThumbnail.jpg';
 import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
@@ -26,7 +26,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ curlThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -40,7 +40,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ exerciseBallThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -54,7 +54,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ nordicCurlThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -68,7 +68,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ stiffLegThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -83,7 +83,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ lungeThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

@@ -1,6 +1,6 @@
 import React from 'react';
 import bicepsImage from '../images/biceps/biceps.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import supinationThumbnail from '../images/biceps/supinationThumbnail.jpg';
 import inOutThumbnail from '../images/biceps/inOutThumbnail.jpg';
 import staticThumbnail from '../images/biceps/staticThumbnail.jpg';
@@ -40,7 +40,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ supinationThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -55,7 +55,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inOutThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -68,7 +68,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -82,7 +82,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hammerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -98,7 +98,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ staticThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -112,7 +112,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ staticHammerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -128,7 +128,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ crossBodyThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -142,7 +142,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ crossHammerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -164,7 +164,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ halfCurlThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -178,7 +178,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ halfHammerThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -192,7 +192,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -206,7 +206,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hammerPronationThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -220,7 +220,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ faceCurlsThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -234,7 +234,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -248,7 +248,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ waiterThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -264,7 +264,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ burnoutThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -284,7 +284,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ legCurlThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

@@ -1,6 +1,6 @@
 import React from 'react';
 import calvesImage from '../images/calves/calves.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import calfRaiseThumbnail from '../images/calves/calfRaiseThumbnail.jpg';
 import squatCalfRaiseThumbnail from '../images/calves/squatCalfRaiseThumbnail.jpg';
 import anteriorTibialisThumbnail from '../images/calves/anteriorTibialisThumbnail.jpg';
@@ -25,7 +25,7 @@ function Calves() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ calfRaiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -38,7 +38,7 @@ function Calves() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ squatCalfRaiseThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -54,7 +54,7 @@ function Calves() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ anteriorTibialisThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

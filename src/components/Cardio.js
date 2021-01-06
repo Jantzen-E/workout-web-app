@@ -1,6 +1,6 @@
 import React from 'react';
 import cardioImage from '../images/cardio/heart.jpg';
-import trapVideo from '../videos/traps/video.mp4';
+import trainingVideo from '../videos/traps/diveBomb.mp4';
 import jumpRopeThumbnail from '../images/cardio/jumpRopeThumbnail.jpg';
 import cyclingThumbnail from '../images/cardio/cyclingThumbnail.jpg';
 import jacksThumbnail from '../images/cardio/jacksThumbnail.jpg';
@@ -25,7 +25,7 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -38,7 +38,7 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ cyclingThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -51,7 +51,7 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jacksThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -66,7 +66,7 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ burpeesThumbnail }>
-                                <source src={ trapVideo } type="video/mp4"/>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
