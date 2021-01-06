@@ -13,9 +13,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-align: center;
 }
 
-/* .homePage {
-  background-image: url('https://www.roguefitness.com/media/catalog/product/cache/1/rogue_header_2015/472321edac810f9b2465a359d8cdc0b5/r/o/rogue-dumbbells-h.jpg');
-} */
+.homePage {
+  padding-top: 13%;
+  /* background-image: url('https://www.roguefitness.com/media/catalog/product/cache/1/rogue_header_2015/472321edac810f9b2465a359d8cdc0b5/r/o/rogue-dumbbells-h.jpg'); */
+}
 
 table {
   font-family: arial, sans-serif;
@@ -314,7 +315,7 @@ img {
 }
 
 h3 {
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   margin-bottom: 0%;
   font-size: 1.2em;
 }
@@ -331,6 +332,7 @@ a {
 
 h1 {
   font-size: 5em;
+  padding-bottom: 3%;
 }
 
 ul.navbar {
@@ -401,4 +403,5 @@ p {
   display: flex;
   text-align: center;
   font-size: 1em;
+  padding-bottom: 13%;
 }
