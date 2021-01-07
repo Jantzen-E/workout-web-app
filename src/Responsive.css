@@ -469,9 +469,11 @@
         width: 70px;
         height: 48px;
     }
+}
 
+@media screen and (max-width: 375px) {
     table {
-        margin-left: 2%;
+        margin-left: .7%;
         margin-right: 0%;
     }
 
