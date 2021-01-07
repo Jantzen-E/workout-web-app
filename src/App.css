@@ -319,7 +319,7 @@ img {
 }
 
 h3 {
-  padding-bottom: 9%;
+  padding-bottom: 3%;
   font-size: 1.2em;
 }
 
@@ -335,7 +335,7 @@ a {
 
 h1 {
   font-size: 5em;
-  margin-bottom: 9%;
+  margin-bottom: 3%;
 }
 
 ul.navbar {
@@ -380,6 +380,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1%;
 }
 
 .questions {
@@ -388,10 +389,11 @@ li {
   text-decoration: underline;
   text-decoration-style: double;
   text-decoration-color: rgb(192, 12, 12);
+  text-align: center;
 }
 
 details {
-  padding-bottom: 13%;
+  padding-bottom: 10%;
 }
 
 summary {
