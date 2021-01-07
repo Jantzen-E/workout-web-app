@@ -407,20 +407,20 @@
         height: 86px;
     }
 
-    video { width: 100px;
+    video { width: 127px;
     }
     
-    video { height: 56px;
+    video { height: 71px;
     }
 
     th {
         border: 5px solid rgb(39, 40, 41);
-        padding: 4px;
+        padding: 2px;
     }
 
     td {
-        padding: 4px;
-        border: 4px solid rgb(192, 12, 12);
+        padding: 2px;
+        border: 3px solid rgb(192, 12, 12);
     }
 
     p {
