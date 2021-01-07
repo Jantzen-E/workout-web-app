@@ -255,7 +255,7 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Iso/eccentric burnout</td>
+                        <td className="nameOfExercise">Iso / eccentric burnout</td>
                         <td className="explanation">
                             Hold the weights halfway between hanging position and your shoulders so that your arms
                             are parallel with the floor.  Hold them there as long as you can without lowering them.
