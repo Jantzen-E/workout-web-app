@@ -461,8 +461,8 @@
     }
 
     .bicepsImage {
-        width: 64px;
-        height: 64px;
+        width: 60px;
+        height: 60px;
     }
 
     .tricepsImage {
@@ -471,7 +471,17 @@
     }
 
     table {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    tr.headings {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    tr {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
