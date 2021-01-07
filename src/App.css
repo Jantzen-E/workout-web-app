@@ -116,7 +116,6 @@ tr:nth-child(even) {
   width: 180px;
   height: 100px;
   transition: transform .2s;
-  margin-right: 5px;
 }
 
 .absImage:hover {
@@ -127,8 +126,6 @@ tr:nth-child(even) {
   width: 180px;
   height: 100px;
   transition: transform .2s;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .obliquesImage:hover {
@@ -139,7 +136,6 @@ tr:nth-child(even) {
   width: 180px;
   height: 100px;
   transition: transform .2s;
-  margin-left: 5px;
 }
 
 .serratusImage:hover {
@@ -160,7 +156,6 @@ tr:nth-child(even) {
   width: 230px;
   height: 160px;
   transition: transform .2s;
-  margin-right: 5px;
 }
 
 .glutesImage:hover {
@@ -171,7 +166,6 @@ tr:nth-child(even) {
   width: 180px;
   height: 160px;
   transition: transform .2s;
-  margin-left: 5px;
 }
 
 .glutesImage2:hover {
@@ -222,7 +216,6 @@ tr:nth-child(even) {
   width: 140px;
   height: 200px;
   transition: transform .2s;
-  margin-right: 5px;
 }
 
 .abductorsImage:hover {
@@ -233,7 +226,6 @@ tr:nth-child(even) {
   width: 180px;
   height: 200px;
   transition: transform .2s;
-  margin-left: 5px;
 }
 
 .abductorsImage2:hover {
