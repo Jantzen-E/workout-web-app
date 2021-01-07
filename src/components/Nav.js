@@ -45,27 +45,27 @@ export default class Nav extends Component {
               Pecs
             </NavLink>
           </li>
-          <li>
+          <li className="middleRow">
             <NavLink to="/abs" activeStyle={{ color: 'rgb(192, 12, 12)'}} exact className="navbarLinks">
               Abs
             </NavLink>
           </li>
-          <li>
+          <li className="middleRow">
             <NavLink to="/forearms" activeStyle={{ color: 'rgb(192, 12, 12)'}} exact className="navbarLinks">
               Forearms
             </NavLink>
           </li>
-          <li>
+          <li className="middleRow">
             <NavLink to="/glutes" activeStyle={{ color: 'rgb(192, 12, 12)'}} exact className="navbarLinks">
               Glutes
             </NavLink>
           </li>
-          <li>
+          <li className="middleRow">
             <NavLink to="/hamstrings" activeStyle={{ color: 'rgb(192, 12, 12)'}} exact className="navbarLinks">
               Hamstrings
             </NavLink>
           </li>
-          <li>
+          <li className="middleRow">
             <NavLink to="/adductors" activeStyle={{ color: 'rgb(192, 12, 12)'}} exact className="navbarLinks">
               Leg Adductors
             </NavLink>

@@ -56,7 +56,6 @@ tr:nth-child(even) {
   width: 220px;
   height: 150px;
   transition: transform .2s;
-  margin-right: 5px;
 }
 
 .deltsImage:hover {
@@ -67,7 +66,6 @@ tr:nth-child(even) {
   width: 216px;
   height: 206px;
   transition: transform .2s;
-  margin-left: 5px;
 }
 
 .deltsImage2:hover {
