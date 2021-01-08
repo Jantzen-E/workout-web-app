@@ -473,8 +473,8 @@
 
 @media screen and (max-width: 375px) {
     table {
-        margin-left: .7%;
-        margin-right: 0%;
+        margin-left: auto;
+        margin-right:auto;
     }
 
     tr.headings {
