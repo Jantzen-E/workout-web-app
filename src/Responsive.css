@@ -451,7 +451,7 @@
     }
 
     .middleRow {
-        padding-top: 1.2%;
+        padding-top: 0%;
         padding-bottom: 0%;
     }
 
@@ -471,6 +471,13 @@
     }
 }
 
+@media screen and (max-width: 384px) {
+    .middleRow {
+        padding-top: 1.2%;
+        padding-bottom: 0%;
+    }
+}    
+
 @media screen and (max-width: 375px) {
     table {
         margin-left: auto;
@@ -485,5 +492,12 @@
     tr {
         margin-left: 0%;
         margin-right: 0%;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .middleRow {
+        padding-top: 1.2%;
+        padding-bottom: 0%;
     }
 }
