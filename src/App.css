@@ -326,6 +326,7 @@ a {
 h1 {
   font-size: 5em;
   margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 ul.navbar {
@@ -340,7 +341,7 @@ ul.navbar {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 3.5%;
+  padding: 8.5%;
   display: flex;
   justify-content: center;
   align-items: center;

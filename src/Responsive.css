@@ -388,6 +388,8 @@
 
     h3 {
         padding-bottom: 9%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     div.homePage {
@@ -492,12 +494,5 @@
     tr {
         margin-left: 0%;
         margin-right: 0%;
-    }
-}
-
-@media screen and (max-width: 358px) {
-    .middleRow {
-        padding-top: 1.2%;
-        padding-bottom: 0%;
     }
 }
