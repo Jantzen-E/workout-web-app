@@ -28,7 +28,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td><img src={ tricepsImage } className="tricepsImage" alt="triceps muscle"></img></td>
-                        <td className="nameOfExercise">Tricep pushups</td>
+                        <td className="nameOfExercise">Tricep push ups</td>
                         <td className="explanation">Perform a push up with your hands closer together to put the focus on 
                             the triceps.
                         </td>
@@ -55,7 +55,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">diamond pushups</td>
+                        <td className="nameOfExercise">diamond push ups</td>
                         <td className="explanation">Perform a push up similar to the tricep push up but turn your hands
                             inward so that they make a diamond shape
                         </td>
@@ -68,7 +68,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">laying down skull crushers</td>
+                        <td className="nameOfExercise">skull crushers on back</td>
                         <td className="explanation">Hold dumbbells in each hand and lay down on your back on a bench
                             or on the floor.  Extend the weights above your head but angled slightly back and then bend
                             at the elbow and lower the weights down next to your ears.  Then raise them up again.
@@ -111,7 +111,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">sphinx pushup</td>
+                        <td className="nameOfExercise">sphinx push up</td>
                         <td className="explanation">Lay on your stomach with your weight on your elbows and your hands
                             pointed forward.  Lift the weight of your body upward so that your elbow is no longer touching
                             which will strenghten the tricep.  Lower your body and repeat.
@@ -139,7 +139,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">behind the head tricep extensions</td>
+                        <td className="nameOfExercise">behind the head tricep extension</td>
                         <td className="explanation">Hold a barbell or 2 dumbbells above your head with arms extended and 
                             slowly lower the weight behind your head by bending the elbows.  Lift weight up again and repeat.
                         </td>
@@ -152,7 +152,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">3 angle tricep kickbacks</td>
+                        <td className="nameOfExercise">3 angle tricep kickback</td>
                         <td className="explanation">Lean forward with dumbbells in each hand and extend the weights behind
                             your back slowly then lower them.  Follow the 3 different grips that are shown in the video.
                         </td>
@@ -165,7 +165,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">1 hand clavicle/shoulder extension</td>
+                        <td className="nameOfExercise">1 hand clavicle / shoulder extension</td>
                         <td className="explanation">Perform this exercise one hand at a time.  It is similar to the behind 
                             the head tricep extension but on the 2nd repetition, lower the arm in front of your head and to
                             touch your clavicle.  Refer to the video for the correct form.

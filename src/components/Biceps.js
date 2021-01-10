@@ -32,7 +32,7 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td><img src={ bicepsImage } className="bicepsImage" alt="biceps muscle"></img></td>
-                        <td className="nameOfExercise">Full supination concentration</td>
+                        <td className="nameOfExercise">Full supination curls</td>
                         <td className="explanation">
                             Perform a one armed curl as normal but at the top of the movement rotate your the pinky side
                             of your hand inward like you are trying to point it at your shoulder which will supinate
@@ -271,7 +271,7 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Towel curls/leg curls</td>
+                        <td className="nameOfExercise">Towel curls / leg curls</td>
                         <td className="explanation">
                             Stand up against a wall and wrap a towel under one of your legs.  Grab the towel like you
                             are holding dumbells and curl the weight of one of your legs up.  You can adjust the resistance

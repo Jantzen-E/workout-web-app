@@ -66,6 +66,8 @@ tr:nth-child(even) {
   width: 216px;
   height: 206px;
   transition: transform .2s;
+  object-fit: cover;
+  object-position: 10% 40%;
 }
 
 .deltsImage2:hover {
