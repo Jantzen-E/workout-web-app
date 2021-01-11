@@ -5,7 +5,6 @@ import curlThumbnail from '../images/hamstrings/curlThumbnail.jpg';
 import exerciseBallThumbnail from '../images/hamstrings/exerciseBallThumbnail.jpg';
 import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
 import stiffLegThumbnail from '../images/hamstrings/stiffLegThumbnail.jpg';
-import lungeThumbnail from '../images/hamstrings/lungeThumbnail.jpg';
 
 function Hamstrings() {
     return(
