@@ -35,3 +35,4 @@
 [0105/210539.805:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0106/185028.077:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0106/185028.099:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\jante\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\0faf94e7-9c7f-4bb8-afc2-18ffeaa80d37: The system cannot find the path specified. (0x3)
+[0109/213435.965:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

@@ -258,8 +258,8 @@
     }
 
     .forearmsImage {
-        width: 86px;
-        height: 53px;
+        width: 100px;
+        height: 62px;
     }
 
     .forearmsImage:hover {
@@ -267,8 +267,8 @@
     }
 
     .glutesImage {
-        width: 86px;
-        height: 60px;
+        width: 100px;
+        height: 75px;
     }
 
     .glutesImage:hover {
@@ -276,8 +276,8 @@
     }
 
     .glutesImage2 {
-        width: 86px;
-        height: 77px;
+        width: 100px;
+        height: 90px;
     }
 
     .glutesImage2:hover {
@@ -285,8 +285,8 @@
     }
 
     .hamstringsImage {
-        width: 86px;
-        height: 72px;
+        width: 100px;
+        height: 84px;
     }
 
     .hamstringsImage:hover {
@@ -294,8 +294,8 @@
     }
 
     .adductorsImage {
-        width: 86px;
-        height: 49px;
+        width: 104px;
+        height: 61px;
     }
 
     .adductorsImage:hover {
@@ -421,7 +421,7 @@
     }
 
     td {
-        padding: 2px;
+        padding: 1px;
         border: 3px solid rgb(192, 12, 12);
     }
 
