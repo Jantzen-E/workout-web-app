@@ -26,7 +26,7 @@ function Abductors() {
                             your legs.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ stepOutThumbnail }>
+                            <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ stepOutThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -39,7 +39,7 @@ function Abductors() {
                             them outward against the weight to focus on the abductors.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
+                            <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -53,7 +53,7 @@ function Abductors() {
                             and your glutes.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
+                            <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

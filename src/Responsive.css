@@ -321,8 +321,8 @@
     }
 
     .quadsImage {
-        width: 86px;
-        height: 67px;
+        width: 96px;
+        height: 75px;
     }
 
     .quadsImage:hover {
@@ -330,8 +330,8 @@
     }
 
     .calvesImage {
-        width: 86px;
-        height: 96px;
+        width: 96px;
+        height: 108px;
     }
 
     .calvesImage:hover {
@@ -339,8 +339,8 @@
     }
 
     .cardioImage {
-        width: 86px;
-        height: 75px;
+        width: 104px;
+        height: 91px;
     }
 
     .cardioImage:hover {
@@ -409,10 +409,28 @@
         height: 100px;
     }
 
-    video { width: 135px;
+    video { 
+        width: 135px;
     }
     
-    video { height: 76px;
+    video { 
+        height: 76px;
+    }
+
+    .hamstringVideos {
+        height: 72px;
+    }
+
+    .hamstringVideos {
+        width: 130px;
+    }
+
+    .abductorVideos {
+        width: 140px;
+    }
+
+    .abductorVideos {
+        height: 78px;
     }
 
     th {
@@ -464,8 +482,8 @@
     }
 
     .bicepsImage {
-        width: 78px;
-        height: 78px;
+        width: 80px;
+        height: 80px;
     }
 
     .tricepsImage {

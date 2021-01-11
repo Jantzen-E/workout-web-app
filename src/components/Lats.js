@@ -6,7 +6,6 @@ import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
 import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
 import bentOverRowThumbnail from '../images/lats/bentOverRow.gif';
 import backFlyThumbnail from '../images/lats/backFly.jpg';
-import bananaRollThumbnail from '../images/lats/bananaRollThumbnail.jpg';
 import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
 
 function Lats() {
@@ -81,34 +80,13 @@ function Lats() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Back flys (bent arm & straight arm)</td>
+                        <td className="nameOfExercise">Seated bent over dumbbell row</td>
                         <td className="explanation">
-                            Hold weights in each hand while standing up.  Bend forward until your torso is parallel with
-                            the ground.  Let the weights hang under your chest.  Then extend them each to the side until 
-                            they are parallel with the ground, then lower them slowly to the hanging position.  For the 
-                            bent arm variation, follow the same instructions above but make sure during the movement that 
-                            your biceps and forearms form a 90 degree angle. 
+                            Hold weights in each hand behing your ankles while sitting on a chair.  Pull your weights up and back
+                            and squeeze your shoulder blades together to activate your lats.  Follow the video for correct form. 
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ backFlyThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Banana roll</td>
-                        <td className="explanation">
-                            Lay on your stomach and raise your ankles and upper torso off the ground so that just your
-                            belly is touching the ground.  Hold that position for 30 seconds then roll over to your side.
-                            Keep your ankles and shoulder off the ground for 30 seconds then roll to your back.  Keep your
-                            head and ankles off the ground and hold for the same amount of time.  Then roll to your other 
-                            side and keep ankles and shoulder off the ground for the same amount of time.  Repeat the whole
-                            process above.  This exercise will strenthen your core which includes muscles in your back.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ bananaRollThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
