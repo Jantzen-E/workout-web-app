@@ -5,6 +5,10 @@ import jumpRopeThumbnail from '../images/cardio/jumpRopeThumbnail.jpg';
 import cyclingThumbnail from '../images/cardio/cyclingThumbnail.jpg';
 import jacksThumbnail from '../images/cardio/jacksThumbnail.jpg';
 import burpeesThumbnail from '../images/cardio/burpeesThumbnail.jpg';
+import tuckThumbnail from '../images/cardio/tuckThumbnail.jpg';
+import inclineTreadmillThumbnail from '../images/cardio/inclineTreadmillThumbnail.jpg';
+import skaterThumbnail from '../images/cardio/skaterThumbnail.jpg';
+import jumpSquatThumbnail from '../images/cardio/jumpSquatThumbnail.jpg';
 
 function Cardio() {
     return(
@@ -66,6 +70,66 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ burpeesThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Tuck jumps</td>
+                        <td className="explanation">Start in the standing position and crouch down until your hands
+                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
+                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
+                            again.  Repeat as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ tuckThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Incline treadmill</td>
+                        <td className="explanation">Start in the standing position and crouch down until your hands
+                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
+                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
+                            again.  Repeat as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ inclineTreadmillThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Speed skaters</td>
+                        <td className="explanation">Start in the standing position and crouch down until your hands
+                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
+                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
+                            again.  Repeat as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ skaterThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Jump squats</td>
+                        <td className="explanation">Start in the standing position and crouch down until your hands
+                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
+                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
+                            again.  Repeat as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ jumpSquatThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
