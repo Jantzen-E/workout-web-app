@@ -78,10 +78,9 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Tuck jumps</td>
-                        <td className="explanation">Start in the standing position and crouch down until your hands
-                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
-                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
-                            again.  Repeat as many times as you can.
+                        <td className="explanation">Stand with your feet close together then jump in the air.  As you jump,
+                            pull your knees close to your chest by "tucking" your lower body uppward.  Before you land, extend
+                            your legs and land softly.  Repeat many times for a good cardio work out.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ tuckThumbnail }>
@@ -93,10 +92,8 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Incline treadmill</td>
-                        <td className="explanation">Start in the standing position and crouch down until your hands
-                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
-                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
-                            again.  Repeat as many times as you can.
+                        <td className="explanation">Walk or jog on the treadmill while the treadmill is at the maximum incline 
+                            possible.  This will allow you to burn calories faster and is a great work out.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inclineTreadmillThumbnail }>
@@ -108,10 +105,8 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Speed skaters</td>
-                        <td className="explanation">Start in the standing position and crouch down until your hands
-                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
-                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
-                            again.  Repeat as many times as you can.
+                        <td className="explanation">Jump back and forth with your weight on only one leg, and move your arms
+                            like a speed skater.  Follow the video for the correct form.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ skaterThumbnail }>
@@ -123,10 +118,10 @@ function Cardio() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Jump squats</td>
-                        <td className="explanation">Start in the standing position and crouch down until your hands
-                            touch the floor.  Then put the weight on your hands and jump your feet back so that you are 
-                            in the pushup position.  Do a pushup then jump your feet to where your hands are and stand up
-                            again.  Repeat as many times as you can.
+                        <td className="explanation"> Perform a squat with the correct form as shown in the video.  Then 
+                            explode upward and when you are at the top of your motion, jump off the ground to make your quads 
+                            work even harder.  Repeat this as many times as you can and you will see why it is under the cardio
+                            category.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jumpSquatThumbnail }>

@@ -5,6 +5,7 @@ import trainingVideo from '../videos/traps/diveBomb.mp4';
 import wideSquatThumbnail from '../images/glutes/wideSquatThumbnail.jpg';
 import thrustThumbnail from '../images/glutes/thrustThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
+import reverseLungeThumbnail from '../images/glutes/reverseLungeThumbnail.jpg';
 
 function Glutes() {
     return(
@@ -53,6 +54,21 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Reverse lunges</td>
+                        <td className="explanation">Step behind you with one leg and let your body lower.  Your front knee
+                            should not extend more forward than your toes and your back foot should remain aimed straight
+                            while your back knee bends and gets close to the ground.  Then push forward so your feet are
+                            together then step back with your opposite foot and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ reverseLungeThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

@@ -8,6 +8,7 @@ import extensionThumbnail from '../images/quads/extensionThumbnail.jpg';
 import bulgarianThumbnail from '../images/quads/bulgarianThumbnail.jpg';
 import closeSquatThumbnail from '../images/quads/closeSquatThumbnail.jpg';
 import lungeThumbnail from '../images/hamstrings/lungeThumbnail.jpg';
+import forwardLungesThumbnail from '../images/quads/forwardLungesThumbnail.jpg';
 
 function Quads() {
     return(
@@ -104,14 +105,29 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Lunges</td>
+                        <td className="nameOfExercise">Static lunges</td>
+                        <td className="explanation">Step in front of you with one leg and let your body lower.  Your
+                            front knee should not extend more forward than your toes and your back foot should remain
+                            straight while your back knee barely taps the ground.  Then push your body weight back up
+                            and repeat as many times as you can.  Then switch to the other leg.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ lungeThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Forward lunges</td>
                         <td className="explanation">Step in front of you with one leg and let your body lower.  Your
                             front knee should not extend more forward than your toes and your back foot should remain
                             straight while your back knee barely taps the ground.  Then stand up and do the same thing
                             with the other leg.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ lungeThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ forwardLungesThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

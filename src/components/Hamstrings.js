@@ -5,6 +5,7 @@ import curlThumbnail from '../images/hamstrings/curlThumbnail.jpg';
 import exerciseBallThumbnail from '../images/hamstrings/exerciseBallThumbnail.jpg';
 import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
 import stiffLegThumbnail from '../images/hamstrings/stiffLegThumbnail.jpg';
+import singleDeadliftThumbnail from '../images/hamstrings/singleDeadliftThumbnail.jpg';
 
 function Hamstrings() {
     return(
@@ -67,6 +68,20 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ stiffLegThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Single leg romanian deadlift</td>
+                        <td className="explanation">Start with your feet together and a weight in your right hand.  Then lift your right leg as your
+                            body leans forward with a flat back and lower your right hand to the level of your left shin.  Raise your body back up 
+                            and put your feet together again.  Repeat as many times as necessary then do the opposite to work out your other leg.
+                        </td>
+                        <td>
+                            <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ singleDeadliftThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
