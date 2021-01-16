@@ -18,6 +18,9 @@ import faceCurlsThumbnail from '../images/biceps/faceCurlsThumbnail.jpg';
 import waiterThumbnail from '../images/biceps/waiterThumbnail.jpg';
 import burnoutThumbnail from '../images/biceps/burnoutThumbnail.jpg';
 import legCurlThumbnail from '../images/biceps/legCurlThumbnail.jpg';
+import supinationVid from '../videos/biceps/supination.mp4';
+import inOutVid from '../videos/biceps/inOut.mp4';
+import hammerVid from '../videos/biceps/hammer.mp4';
 
 function Biceps() {
     return(
@@ -40,7 +43,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ supinationThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ supinationVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -55,7 +58,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inOutThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ inOutVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -82,7 +85,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hammerThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ hammerVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

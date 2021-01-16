@@ -2,6 +2,7 @@ import React from 'react';
 import trapsImage from '../images/traps/traps.jpg';
 import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
 import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
+import shrugVid from '../videos/traps/shrugs.mp4';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
 
 function Traps() {
@@ -25,7 +26,7 @@ function Traps() {
                     </td>
                     <td>
                         <video width="432" height="240" autoplay controls muted poster={ shrugThumbnail }>
-                            <source src={ trainingVideo } type="video/mp4"/>
+                            <source src={ shrugVid } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>
                     </td>

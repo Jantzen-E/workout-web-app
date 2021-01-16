@@ -11,6 +11,7 @@ import circlesThumbnail from '../images/delts/circlesThumbnail.jpg';
 import uprightRowThumbnail from '../images/delts/uprightRowThumbnail.jpg';
 import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
+import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 
 function Delts() {
     return(
@@ -33,7 +34,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ frontRaiseVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
