@@ -1,8 +1,10 @@
 import React from 'react';
 import adductorsImage from '../images/adductors/adductors.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import adductionMachineVid from '../videos/adductors/adductionMachine.mp4';
 import sideLungeThumbnail from '../images/adductors/sideLungeThumbnail.jpg';
 import hipAdductorThumbnail from '../images/adductors/hipAdductorThumbnail.jpg';
+import multiHipMachineThumbnail from '../images/adductors/multiHipMachineThumbnail.jpg';
 
 function Adductors() {
     return(
@@ -38,6 +40,19 @@ function Adductors() {
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hipAdductorThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Hip adduction with multi hip machine</td>
+                        <td className="explanation">Adjust the roller to the correct height and position so that you can 
+                            push your leg inward against the resistance.  See video for more details.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ multiHipMachineThumbnail }>
+                                <source src={ adductionMachineVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

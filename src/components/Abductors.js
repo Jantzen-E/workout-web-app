@@ -2,9 +2,11 @@ import React from 'react';
 import abductorsImage from '../images/abductors/abductors.jpg';
 import abductorsImage2 from '../images/abductors/abductors2.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import multiHipMachine from '../videos/abductors/abductionMachine.mp4';
 import stepOutThumbnail from '../images/abductors/stepOutThumbnail.png';
 import hipAbductionThumbnail from '../images/abductors/hipAbductionThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
+import multiHipThumbnail from '../images/abductors/multiHipThumbnail.jpg';
 
 function Abductors() {
     return(
@@ -55,6 +57,19 @@ function Abductors() {
                         <td>
                             <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ bandedHipAbductionThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Hip Abduction with multi hip machine</td>
+                        <td className="explanation">Adjust the roller to the correct height and position so that you can 
+                            push your leg outward against the resistance.  See video for more details.
+                        </td>
+                        <td>
+                            <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ multiHipThumbnail }>
+                                <source src={ multiHipMachine } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
