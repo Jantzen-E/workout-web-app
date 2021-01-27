@@ -7,6 +7,9 @@ import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
 import bentOverRowThumbnail from '../images/lats/bentOverRow.gif';
 import backFlyThumbnail from '../images/lats/backFly.jpg';
 import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
+import straightPulldownThumbnail from '../images/lats/straightPulldownThumbnail.jpg';
+import seatedRowThumbnail from '../images/lats/seatedRowThumbnail.jpg';
+import latPulldownThumbnail from '../images/lats/latPulldownThumbnail.jpg';
 
 function Lats() {
     return(
@@ -28,6 +31,48 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Seated lat pulldown</td>
+                        <td className="explanation">
+                            With your arms extended above your head and using a cable machine or bands, sit down and pull the weight down 
+                            towards your upper chest.  Slowly extend your arms overhead again and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ latPulldownThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Straight arm lat pulldown</td>
+                        <td className="explanation">
+                            Using a cable machine or bands, put the pulley/anchor up high and pull the weight down towards your thighs 
+                            but keep your arms straight.  See video for correct form.   
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ straightPulldownThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Seated Row</td>
+                        <td className="explanation">
+                            Using a cable machine or bands, sit down and pull the weight so that your hands move toward your lower 
+                            chest.  Then slowly extend your arms all the way and repeat.  
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

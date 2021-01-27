@@ -16,6 +16,7 @@ import staggeredThumbnail from '../images/pecs/staggeredThumbnail.jpg';
 import prisonCellThumbnail from '../images/pecs/prisonCellThumbnail.jpg';
 import sloMoThumbnail from '../images/pecs/sloMoThumbnail.jpg';
 import sidePushThumbnail from '../images/pecs/sidePushThumbnail.jpg';
+import dumbbellChestFlyThumbnail from '../images/pecs/dumbbellChestFlyThumbnail.jpg';
 
 function Pecs() {
     return(
@@ -215,6 +216,20 @@ function Pecs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ sidePushThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Laying down dumbbell chest fly</td>
+                        <td className="explanation">Hold dumbbells in each hand and lay down.  Do a chest fly as seen in the 
+                            video.  This can be and should be done at 3 different angles.  You can do it flat, slight incline,
+                            and slight decline to hit all areas of the chest.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ dumbbellChestFlyThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

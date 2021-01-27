@@ -10,6 +10,7 @@ import poursThumbnail from '../images/delts/pours.jpg';
 import circlesThumbnail from '../images/delts/circlesThumbnail.jpg';
 import uprightRowThumbnail from '../images/delts/uprightRowThumbnail.jpg';
 import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
+import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 
@@ -155,6 +156,21 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pikeThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Rear delt fly</td>
+                        <td className="explanation">
+                            Your feet should be a lot closer to your hands compared to a normal push up.  Your butt should be sticking
+                            up in the air.  Using your shoulders, lower your upper body slowly until the top of your head touches the 
+                            ground.  Then push your body back up until your arms are extended again.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
