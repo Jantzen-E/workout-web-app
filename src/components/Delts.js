@@ -165,9 +165,8 @@ function Delts() {
                         <td></td>
                         <td className="nameOfExercise">Rear delt fly</td>
                         <td className="explanation">
-                            Your feet should be a lot closer to your hands compared to a normal push up.  Your butt should be sticking
-                            up in the air.  Using your shoulders, lower your upper body slowly until the top of your head touches the 
-                            ground.  Then push your body back up until your arms are extended again.
+                            Grab the bar and push your hands outward and then squeeze your shoulder blades in the back which will engage 
+                            the back side of your shoulder.  Then move your hands slowly to the original position and repeat.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>

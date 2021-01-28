@@ -107,10 +107,11 @@ function Quads() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Static lunges</td>
-                        <td className="explanation">Step in front of you with one leg and let your body lower.  Your
-                            front knee should not extend more forward than your toes and your back foot should remain
-                            straight while your back knee barely taps the ground.  Then push your body weight back up
-                            and repeat as many times as you can.  Then switch to the other leg.
+                        <td className="explanation">Separate your legs and lower your body bending at the knees so your 
+                            body goes straight down.  Your front knee should not extend more forward than your toes and 
+                            your back foot should remain straight while your back knee barely taps the ground.  Then 
+                            push your body weight straight back up and repeat as many times as you can.  Then switch to 
+                            the other leg.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ lungeThumbnail }>
@@ -137,10 +138,9 @@ function Quads() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Hip flexion with multi hip machine</td>
-                        <td className="explanation">Step in front of you with one leg and let your body lower.  Your
-                            front knee should not extend more forward than your toes and your back foot should remain
-                            straight while your back knee barely taps the ground.  Then stand up and do the same thing
-                            with the other leg.
+                        <td className="explanation">Adjust the roller to the correct height and place it right above your
+                            knee.  Push your leg forward by bending at the hip against the resistance.  This will work out 
+                            your quads but it is also good for your hip flexors.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hipFlexionThumbnail }>

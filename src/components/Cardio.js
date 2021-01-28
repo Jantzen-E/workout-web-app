@@ -14,6 +14,8 @@ import tuckThumbnail from '../images/cardio/tuckThumbnail.jpg';
 import inclineTreadmillThumbnail from '../images/cardio/inclineTreadmillThumbnail.jpg';
 import skaterThumbnail from '../images/cardio/skaterThumbnail.jpg';
 import jumpSquatThumbnail from '../images/cardio/jumpSquatThumbnail.jpg';
+import ellipticalThumbnail from '../images/cardio/ellipticalThumbnail.jpg';
+import stairThumbnail from '../images/cardio/stairThumbnail.jpg';
 
 function Cardio() {
     return(
@@ -130,6 +132,30 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jumpSquatThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Stair climber machine</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ stairThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Elliptical</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
                                 <source src={ jumpSquatsVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

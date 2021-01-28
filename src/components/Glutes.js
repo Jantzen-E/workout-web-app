@@ -78,10 +78,9 @@ function Glutes() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Glute kick back with machine</td>
-                        <td className="explanation">Step behind you with one leg and let your body lower.  Your front knee
-                            should not extend more forward than your toes and your back foot should remain aimed straight
-                            while your back knee bends and gets close to the ground.  Then push forward so your feet are
-                            together then step back with your opposite foot and repeat.
+                        <td className="explanation">Put your foot on the small platform and kick your leg back as far as 
+                            you can and as high as you can.  This exercise will build your glutes but also is good for 
+                            your hamstrings.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ gluteKickbackThumbnail }>

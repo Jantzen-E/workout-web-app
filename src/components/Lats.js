@@ -69,7 +69,7 @@ function Lats() {
                         <td className="nameOfExercise">Seated Row</td>
                         <td className="explanation">
                             Using a cable machine or bands, sit down and pull the weight so that your hands move toward your lower 
-                            chest.  Then slowly extend your arms all the way and repeat.  
+                            chest.  Then slowly extend your arms all the way out and repeat.  
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>

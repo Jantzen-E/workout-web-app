@@ -91,9 +91,8 @@ function Hamstrings() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Hamstring extension on multi hip machine</td>
-                        <td className="explanation">Start with your feet together and a weight in your right hand.  Then lift your right leg as your
-                            body leans forward with a flat back and lower your right hand to the level of your left shin.  Raise your body back up 
-                            and put your feet together again.  Repeat as many times as necessary then do the opposite to work out your other leg.
+                        <td className="explanation">Press your leg against the roller backwards and raise your hamstring up as you are pushing.
+                            See the video for correct form.
                         </td>
                         <td>
                             <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ multiHipThumbnail }>
