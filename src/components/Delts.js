@@ -12,6 +12,7 @@ import uprightRowThumbnail from '../images/delts/uprightRowThumbnail.jpg';
 import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
 import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
+import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 
 function Delts() {
@@ -170,6 +171,21 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Face Pulls</td>
+                        <td className="explanation">
+                            Using bands or the cable machine and rope, face the machine or anchor point and pull the tension toward your 
+                            face while letting your elbows point straight out to the side and by squeezing your shoulder blades together.
+                            Watch the video for the correct form.  This exercise primarily works the rear delts.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
