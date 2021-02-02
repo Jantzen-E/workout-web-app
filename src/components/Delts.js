@@ -14,6 +14,7 @@ import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import frontRaiseVid from '../videos/delts/frontRaise.mp4';
+import pressVid from '../videos/delts/press.mp4';
 
 function Delts() {
     return(
@@ -82,7 +83,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ pressVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

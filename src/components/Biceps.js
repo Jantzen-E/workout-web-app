@@ -21,6 +21,7 @@ import legCurlThumbnail from '../images/biceps/legCurlThumbnail.jpg';
 import supinationVid from '../videos/biceps/supination.mp4';
 import inOutVid from '../videos/biceps/inOut.mp4';
 import hammerVid from '../videos/biceps/hammer.mp4';
+import inOutHammerVid from '../videos/biceps/inOutHammer.mp4';
 
 function Biceps() {
     return(
@@ -71,7 +72,7 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inOutHammerThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ inOutHammerVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
