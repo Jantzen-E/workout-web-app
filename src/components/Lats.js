@@ -10,6 +10,8 @@ import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
 import straightPulldownThumbnail from '../images/lats/straightPulldownThumbnail.jpg';
 import seatedRowThumbnail from '../images/lats/seatedRowThumbnail.jpg';
 import latPulldownThumbnail from '../images/lats/latPulldownThumbnail.jpg';
+import pulloverThumbnail from '../images/lats/pulloverThumbnail.jpg';
+import latPulloverVid from '../videos/lats/latPullover.mp4';
 
 function Lats() {
     return(
@@ -74,6 +76,21 @@ function Lats() {
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Seated lat pullover machine</td>
+                        <td className="explanation">
+                            Sit down and reach your arms over your head to hold onto the bar.  Pull the bar over your head 
+                            and down to your thighs squeezing / pausing at the bottom of the motion.  Do this repeatedly
+                            as needed.  See video for example.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ pulloverThumbnail }>
+                                <source src={ latPulloverVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
