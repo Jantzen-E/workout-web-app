@@ -89,6 +89,19 @@ function Glutes() {
                             </video>
                         </td>
                     </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Prisoner squat</td>
+                        <td className="explanation">
+                            
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ gluteKickbackThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
                 </table>
             </div>
         </div>

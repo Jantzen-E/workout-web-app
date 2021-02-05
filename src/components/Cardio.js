@@ -161,6 +161,30 @@ function Cardio() {
                             </video>
                         </td>
                     </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Butt kicks</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Overhead medicine ball throw downs</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
                 </table> 
             </div>
         </div>

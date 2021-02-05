@@ -82,6 +82,19 @@ function Lats() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">Renegade Rows</td>
+                        <td className="explanation">
+                             
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">Seated lat pullover machine</td>
                         <td className="explanation">
                             Sit down and reach your arms over your head to hold onto the bar.  Pull the bar over your head 

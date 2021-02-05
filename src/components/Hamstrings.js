@@ -90,6 +90,19 @@ function Hamstrings() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">Dumbbell romanian deadlift</td>
+                        <td className="explanation">
+                            
+                        </td>
+                        <td>
+                            <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ singleDeadliftThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">Hamstring extension on multi hip machine</td>
                         <td className="explanation">Press your leg against the roller backwards and raise your hamstring up as you are pushing.
                             See the video for correct form.

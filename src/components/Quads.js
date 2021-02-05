@@ -137,6 +137,19 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">Lunge jumps</td>
+                        <td className="explanation">
+                            
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ forwardLungesThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">Hip flexion with multi hip machine</td>
                         <td className="explanation">Adjust the roller to the correct height and place it right above your
                             knee.  Push your leg forward by bending at the hip against the resistance.  This will work out 
