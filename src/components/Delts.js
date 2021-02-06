@@ -13,6 +13,7 @@ import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
 import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
+import rotatorThumbnail from '../images/delts/rotatorThumbnail.jpg';
 import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 import pressVid from '../videos/delts/press.mp4';
 
@@ -187,6 +188,19 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Rotator cuff external and internal rotation</td>
+                        <td className="explanation">
+                            
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ rotatorThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
