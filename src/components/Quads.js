@@ -10,6 +10,7 @@ import closeSquatThumbnail from '../images/quads/closeSquatThumbnail.jpg';
 import lungeThumbnail from '../images/hamstrings/lungeThumbnail.jpg';
 import forwardLungesThumbnail from '../images/quads/forwardLungesThumbnail.jpg';
 import hipFlexionThumbnail from '../images/quads/hipFlexionThumbnail.jpg';
+import jumpLungeThumbnail from '../images/quads/jumpLungeThumbnail.jpg';
 
 function Quads() {
     return(
@@ -139,10 +140,11 @@ function Quads() {
                         <td></td>
                         <td className="nameOfExercise">Lunge jumps</td>
                         <td className="explanation">
-                            
+                            Perform a lunge then jump at the top of the movement to change your stance so the opposite foot 
+                            is in front.  Then repeat alternating each time which foot is in front.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ forwardLungesThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ jumpLungeThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

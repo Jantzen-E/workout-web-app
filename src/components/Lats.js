@@ -11,6 +11,7 @@ import straightPulldownThumbnail from '../images/lats/straightPulldownThumbnail.
 import seatedRowThumbnail from '../images/lats/seatedRowThumbnail.jpg';
 import latPulldownThumbnail from '../images/lats/latPulldownThumbnail.jpg';
 import pulloverThumbnail from '../images/lats/pulloverThumbnail.jpg';
+import renegadeThumbnail from '../images/lats/renegadeThumbnail.jpg';
 import latPulloverVid from '../videos/lats/latPullover.mp4';
 
 function Lats() {
@@ -84,10 +85,11 @@ function Lats() {
                         <td></td>
                         <td className="nameOfExercise">Renegade Rows</td>
                         <td className="explanation">
-                             
+                             This is like doing a row while you are in a plank position.  Do one row with one arm then switch off.
+                             This will help with balance and it is a great exercise to target your lats. 
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ renegadeThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

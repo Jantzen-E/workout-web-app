@@ -50,8 +50,8 @@ function Traps() {
                     <td></td>
                     <td className="nameOfExercise">Behind the back shrugs</td>
                     <td className="explanation">
-                        Get into the headstand stance and remove your arms so that your weight is on your toes and top of your head.
-                        Very carefully rock back and forth while controlling the movement with your neck.
+                        This is the same concept as the weighted shrugs but this time, hold the weights or bar behind your back
+                        which will help you to keep your chest out.  Then pull up using your traps to get a great exercise.
                     </td>
                     <td>
                         <video width="432" height="240" autoplay controls muted poster={ rearShrugThumbnail }>

@@ -33,7 +33,8 @@ function Home() {
                     <p>
                         This all depends on what your goals are.  In my opinion, I would put a stronger focus on the
                         areas where you would like to improve with a lesser focus on the other areas.  I would still recommend working out all muscle groups but just change the focus
-                        based on your personal goals.
+                        based on your personal goals.  If at any time you feel too much pressure on your joints, try using an alternative exercise that works the same muscle group.  I 
+                        encourage you to do your own research as well to make sure that you are using the correct form as you exercise because if not, injuries are much more common.
                     </p>
             </details>
             <details>
@@ -42,7 +43,9 @@ function Home() {
                         Many of these exercises can be done from home with minimal equipment.  If you have 
                         exercise bands or dumbbells then you can do most of these.  Other equipment that is used are things that are common household items like chairs, couches,
                         doors, etc.  If you find an exercise that requires gym equipment that you don't have access to, there are alternative exercises that will most likely work so 
-                        you can do more research if you don't find all the alternatives in this site.
+                        you can do more research if you don't find all the alternatives in this site.  Remeber, there are usually at least 3 ways to do each exercise.  There are 
+                        free weights (like dumbbells), machines where you adjust the weight with a pin that you put in different holes, with a cable or exercise bands, or just using
+                        your own body weight.  Do these exercises with that in mind and choose what you prefer or what is available to you.
                     </p>
             </details>
             <div className="asterisk">

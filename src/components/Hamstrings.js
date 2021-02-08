@@ -7,6 +7,7 @@ import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
 import stiffLegThumbnail from '../images/hamstrings/stiffLegThumbnail.jpg';
 import singleDeadliftThumbnail from '../images/hamstrings/singleDeadliftThumbnail.jpg';
 import multiHipThumbnail from '../images/hamstrings/multiHipThumbnail.jpg';
+import romanianThumbnail from '../images/hamstrings/romanianThumbnail.jpg';
 
 function Hamstrings() {
     return(
@@ -92,10 +93,11 @@ function Hamstrings() {
                         <td></td>
                         <td className="nameOfExercise">Dumbbell romanian deadlift</td>
                         <td className="explanation">
-                            
+                            This is the same concept as the single leg romanian deadlift but it takes the element of balance out of the exercise.
+                            Do a deadlift as shown in the video with dumbbells.
                         </td>
                         <td>
-                            <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ singleDeadliftThumbnail }>
+                            <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ romanianThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

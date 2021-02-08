@@ -7,6 +7,7 @@ import thrustThumbnail from '../images/glutes/thrustThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
 import reverseLungeThumbnail from '../images/glutes/reverseLungeThumbnail.jpg';
 import gluteKickbackThumbnail from '../images/glutes/gluteKickbackThumbnail.jpg';
+import prisonerThumbnail from '../images/glutes/prisonerThumbnail.jpg';
 
 function Glutes() {
     return(
@@ -96,7 +97,7 @@ function Glutes() {
                             
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ gluteKickbackThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ prisonerThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

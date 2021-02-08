@@ -16,6 +16,8 @@ import skaterThumbnail from '../images/cardio/skaterThumbnail.jpg';
 import jumpSquatThumbnail from '../images/cardio/jumpSquatThumbnail.jpg';
 import ellipticalThumbnail from '../images/cardio/ellipticalThumbnail.jpg';
 import stairThumbnail from '../images/cardio/stairThumbnail.jpg';
+import kickThumbnail from '../images/cardio/kickThumbnail.jpg';
+import medicineBallThumbnail from '../images/cardio/medicineBallThumbnail.jpg';
 
 function Cardio() {
     return(
@@ -100,7 +102,8 @@ function Cardio() {
                         <td></td>
                         <td className="nameOfExercise">Incline treadmill</td>
                         <td className="explanation">Walk or jog on the treadmill while the treadmill is at the maximum incline 
-                            possible.  This will allow you to burn calories faster and is a great work out.
+                            possible.  This will allow you to burn calories faster and is a great work out.  For more intense 
+                            cardio workout, increase speed as well.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inclineTreadmillThumbnail }>
@@ -141,6 +144,9 @@ function Cardio() {
                         <td></td>
                         <td className="nameOfExercise">Stair climber machine</td>
                         <td className="explanation">
+                            The stair climber machine simulates stairs that keep going and going so you can set a goal for how
+                            many minutes you want to walk on it and you will get a great cardio workout from this.  For more 
+                            intense cardio workouts, you can increase the speed of the stairs to make you step faster.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ stairThumbnail }>
@@ -153,6 +159,9 @@ function Cardio() {
                         <td></td>
                         <td className="nameOfExercise">Elliptical</td>
                         <td className="explanation">
+                            The elliptical is good because you are moving your arms and your legs.  It is a good alternative 
+                            if you don't like running or using the treadmill because it is low impact meaning that it is not 
+                            hard on your joints.  Increase intensity by increasing speed and/or resistance.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
@@ -165,9 +174,12 @@ function Cardio() {
                         <td></td>
                         <td className="nameOfExercise">Butt kicks</td>
                         <td className="explanation">
+                            This is a higher impact exercise where you jump up and down and when you jump up, kick yourself 
+                            in the butt with your heels and then land on your feet.  Do this repeatedly and you will see why
+                            this is a cardio workout.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ kickThumbnail }>
                                 <source src={ jumpSquatsVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -177,9 +189,12 @@ function Cardio() {
                         <td></td>
                         <td className="nameOfExercise">Overhead medicine ball throw downs</td>
                         <td className="explanation">
+                            This gets your heart rate going and is a fun way to exercise because you get to throw something.
+                            Lift the medicine ball over your head then throw it downward into the ground and repeat.  You can 
+                            increase the weight of the ball or the speed of the exercise to increase intensity.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ medicineBallThumbnail }>
                                 <source src={ jumpSquatsVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

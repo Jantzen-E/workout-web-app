@@ -197,7 +197,8 @@ function Delts() {
                         <td></td>
                         <td className="nameOfExercise">Rotator cuff external and internal rotation</td>
                         <td className="explanation">
-                            
+                            Hold a dumbbell or a cable and move your arms in and out against the weight.  This will strengthen your 
+                            shoulders to help prevent injuries.  See video for dumbbell version.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ rotatorThumbnail }>
