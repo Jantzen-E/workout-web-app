@@ -519,6 +519,26 @@
         width: 55px;
     }
 
+    .adductorsImage {
+        width: 101px;
+        height: 59px;
+    }
+
+    .cardioImage {
+        width: 101px;
+        height: 89px;
+    }
+
+    .bicepsImage {
+        width: 74px;
+        height: 74px;
+    }
+
+    .latsImage {
+        width: 87px;
+        height: 87px;
+    }
+
     .trapsImage:hover {
         transform: none;
     }
