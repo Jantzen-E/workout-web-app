@@ -45,6 +45,22 @@ function Delts() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">upright row</td>
+                        <td className="explanation">
+                            Hold dumbells in each hand and let them hang down in front of you.  The dumbells should be close
+                            together (almost touching).  Raise them straight up until the weights are just under your chin 
+                            and your elbows are as high as your ears.  Then lower the weights down slowly to the original position 
+                            then repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">Scarecrow</td>
                         <td className="explanation">
                             Hold dumbells in each hand above your shoulders so that they are close to your ears with your
@@ -53,6 +69,49 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Rear delt fly</td>
+                        <td className="explanation">
+                            Grab the bar and push your hands outward and then squeeze your shoulder blades in the back which will engage 
+                            the back side of your shoulder.  Then move your hands slowly to the original position and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Face Pulls</td>
+                        <td className="explanation">
+                            Using bands or the cable machine and rope, face the machine or anchor point and pull the tension toward your 
+                            face while letting your elbows point straight out to the side and by squeezing your shoulder blades together.
+                            Watch the video for the correct form.  This exercise primarily works the rear delts.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Rotator cuff external and internal rotation</td>
+                        <td className="explanation">
+                            Hold a dumbbell or a cable and move your arms in and out against the weight.  This will strengthen your 
+                            shoulders to help prevent injuries.  See video for dumbbell version.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ rotatorThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -135,22 +194,6 @@ function Delts() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">upright row</td>
-                        <td className="explanation">
-                            Hold dumbells in each hand and let them hang down in front of you.  The dumbells should be close
-                            together (almost touching).  Raise them straight up until the weights are just under your chin 
-                            and your elbows are as high as your ears.  Then lower the weights down slowly to the original position 
-                            then repeat.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ uprightRowThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">pike push up</td>
                         <td className="explanation">
                             Your feet should be a lot closer to your hands compared to a normal push up.  Your butt should be sticking
@@ -159,49 +202,6 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pikeThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Rear delt fly</td>
-                        <td className="explanation">
-                            Grab the bar and push your hands outward and then squeeze your shoulder blades in the back which will engage 
-                            the back side of your shoulder.  Then move your hands slowly to the original position and repeat.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Face Pulls</td>
-                        <td className="explanation">
-                            Using bands or the cable machine and rope, face the machine or anchor point and pull the tension toward your 
-                            face while letting your elbows point straight out to the side and by squeezing your shoulder blades together.
-                            Watch the video for the correct form.  This exercise primarily works the rear delts.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Rotator cuff external and internal rotation</td>
-                        <td className="explanation">
-                            Hold a dumbbell or a cable and move your arms in and out against the weight.  This will strengthen your 
-                            shoulders to help prevent injuries.  See video for dumbbell version.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ rotatorThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

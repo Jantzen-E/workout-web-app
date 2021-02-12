@@ -34,20 +34,6 @@ function Traps() {
                 </tr>
                 <tr>
                     <td></td>
-                    <td className="nameOfExercise">Neck bridges</td>
-                    <td className="explanation">
-                        Get into the headstand stance and remove your arms so that your weight is on your toes and top of your head.
-                        Very carefully rock back and forth while controlling the movement with your neck.
-                    </td>
-                    <td>
-                        <video width="432" height="240" autoplay controls muted poster={ neckBridgeThumbnail }>
-                            <source src={ trainingVideo } type="video/mp4"/>
-                            Your browser does not support the video tag
-                        </video>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td className="nameOfExercise">Behind the back shrugs</td>
                     <td className="explanation">
                         This is the same concept as the weighted shrugs but this time, hold the weights or bar behind your back
@@ -55,6 +41,20 @@ function Traps() {
                     </td>
                     <td>
                         <video width="432" height="240" autoplay controls muted poster={ rearShrugThumbnail }>
+                            <source src={ trainingVideo } type="video/mp4"/>
+                            Your browser does not support the video tag
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td className="nameOfExercise">Neck bridges</td>
+                    <td className="explanation">
+                        Get into the headstand stance and remove your arms so that your weight is on your toes and top of your head.
+                        Very carefully rock back and forth while controlling the movement with your neck.
+                    </td>
+                    <td>
+                        <video width="432" height="240" autoplay controls muted poster={ neckBridgeThumbnail }>
                             <source src={ trainingVideo } type="video/mp4"/>
                             Your browser does not support the video tag
                         </video>

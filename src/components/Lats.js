@@ -83,20 +83,6 @@ function Lats() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Renegade Rows</td>
-                        <td className="explanation">
-                             This is like doing a row while you are in a plank position.  Do one row with one arm then switch off.
-                             This will help with balance and it is a great exercise to target your lats. 
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ renegadeThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Seated lat pullover machine</td>
                         <td className="explanation">
                             Sit down and reach your arms over your head to hold onto the bar.  Pull the bar over your head 
@@ -106,6 +92,20 @@ function Lats() {
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pulloverThumbnail }>
                                 <source src={ latPulloverVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Renegade Rows</td>
+                        <td className="explanation">
+                             This is like doing a row while you are in a plank position.  Do one row with one arm then switch off.
+                             This will help with balance and it is a great exercise to target your lats. 
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ renegadeThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

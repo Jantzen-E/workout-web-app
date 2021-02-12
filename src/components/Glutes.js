@@ -7,7 +7,6 @@ import thrustThumbnail from '../images/glutes/thrustThumbnail.jpg';
 import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
 import reverseLungeThumbnail from '../images/glutes/reverseLungeThumbnail.jpg';
 import gluteKickbackThumbnail from '../images/glutes/gluteKickbackThumbnail.jpg';
-import prisonerThumbnail from '../images/glutes/prisonerThumbnail.jpg';
 
 function Glutes() {
     return(
@@ -85,21 +84,6 @@ function Glutes() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ gluteKickbackThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Prisoner squat</td>
-                        <td className="explanation">
-                            Perform a squat as shown in the video and place your hands on the top of your head and with
-                            your elbows flared while you do so.  This will help you with your form by keeping your chest 
-                            out and your back straight so that you don't hunch over or round the back. 
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ prisonerThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

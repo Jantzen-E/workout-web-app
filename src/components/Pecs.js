@@ -31,19 +31,6 @@ function Pecs() {
                     </tr>
                     <tr>
                         <td><img src={ pecsImage } className="pecsImage" alt="pectoralis muscles"></img></td>
-                        <td className="nameOfExercise">incline bench press</td>
-                        <td className="explanation">Perform a bench press with a slight incline to work out the upper 
-                            portion of the chest as shown in the video.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">flat bench press</td>
                         <td className="explanation">Press a barbell straight up from a flat bench to work
                             the mid chest as shown in the video.
@@ -57,12 +44,39 @@ function Pecs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">decline bench press</td>
-                        <td className="explanation">Put the bench at a slight decline and press the barbell
-                            upwards to work out the lower portion of the chest as shown in the video.
+                        <td className="nameOfExercise">incline bench press</td>
+                        <td className="explanation">Perform a bench press with a slight incline to work out the upper 
+                            portion of the chest as shown in the video.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ declineBenchThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">chest flys/cable crossovers (3 directions)</td>
+                        <td className="explanation">You can use bands, cables, or weights to pull at 3 different angles
+                            as shown in the video.  This will work all areas of the pec muscles.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Laying down dumbbell chest fly</td>
+                        <td className="explanation">Hold dumbbells in each hand and lay down.  Do a chest fly as seen in the 
+                            video.  This can be and should be done at 3 different angles.  You can do it flat, slight incline,
+                            and slight decline to hit all areas of the chest.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ dumbbellChestFlyThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -83,12 +97,26 @@ function Pecs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">chest flys/cable crossovers (3 directions)</td>
-                        <td className="explanation">You can use bands, cables, or weights to pull at 3 different angles
-                            as shown in the video.  This will work all areas of the pec muscles.
+                        <td className="nameOfExercise">slo-mo pushups</td>
+                        <td className="explanation">Lower your body very slowly as you perform a push up then raise your 
+                            body at a normal pace.  Then lower your body at a normal pace but push up very slowly.  Then
+                            do both lowering and pushing up very slowly.  Repeat until failure.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ sloMoThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">decline bench press</td>
+                        <td className="explanation">Put the bench at a slight decline and press the barbell
+                            upwards to work out the lower portion of the chest as shown in the video.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ declineBenchThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -195,20 +223,6 @@ function Pecs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">slo-mo pushups</td>
-                        <td className="explanation">Lower your body very slowly as you perform a push up then raise your 
-                            body at a normal pace.  Then lower your body at a normal pace but push up very slowly.  Then
-                            do both lowering and pushing up very slowly.  Repeat until failure.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ sloMoThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">side to side pushups</td>
                         <td className="explanation">From the standard push up position, step one of your hands out wider
                             to the side and perform a push up.  Then go back to standard push up position.  Then step your
@@ -216,20 +230,6 @@ function Pecs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ sidePushThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Laying down dumbbell chest fly</td>
-                        <td className="explanation">Hold dumbbells in each hand and lay down.  Do a chest fly as seen in the 
-                            video.  This can be and should be done at 3 different angles.  You can do it flat, slight incline,
-                            and slight decline to hit all areas of the chest.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ dumbbellChestFlyThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
