@@ -55,6 +55,224 @@ function Abs() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">Side Crunches</td>
+                        <td className="explanation">Lay on your side and cruch your body upward to perform the side 
+                            crunch.  See video for the correct form.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ sideCrunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Circle Crunches</td>
+                        <td className="explanation">This is similar to a crunch but keep your legs extended and move
+                            your upper body in a clock-wise motion and then do the same number of repetitions in a 
+                            counter-clock-wise motion.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ circleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">heel touches</td>
+                        <td className="explanation">Use the same starting position as a sit up but move your body 
+                            side to side so that your can touch your heels.  Repeat as needed.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ heelTouchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Mason Twist</td>
+                        <td className="explanation">Sit on the ground and pull your legs in toward your body.  Lift 
+                            your heels off the ground and twist your upper body while tapping your hands on each side of
+                            your hips.  Do this as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ twistThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">side hip raise</td>
+                        <td className="explanation">Put your weight on one arm and one leg with your body facing forward
+                            and raise your hips straight up and then lower them.  Repeat as many times as you can.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ sideRaiseThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">cross leg/wide leg sit up</td>
+                        <td className="explanation">Lay down with your legs spread apart.  Sit up and touch your left
+                            leg with your right hand.  Then lay down and do the opposite.  To make the exercise more 
+                            difficult, sit with your legs crossed as shown in the video.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ wideSitThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Oblique v-up</td>
+                        <td className="explanation">Lay on your side and raise your right elbow up toward your right
+                            knee as shown in the video.  Then do the same on your left side.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ obliqueVThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Windshield wipers</td>
+                        <td className="explanation">Lay on your back and straighten your legs pointing upward.  Move 
+                            your legs like windshield wipers as shown in the video.  You can do it with bent legs for 
+                            a slight modification.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ wipersThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">5 angle leg crunches</td>
+                        <td className="explanation">Crunch your legs toward your upper body using the 5 angles that
+                            are shown in the video.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Seated ab circles</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Russian V tuck twists</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Jackknife crunch</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Crunch & twist</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">leg climb</td>
+                        <td className="explanation">Lay down and extend one leg up.  Climb your leg with your hands 
+                            focusing on using your ab muscles.  Then do it with the opposite leg.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ legClimbThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Cross crunches</td>
+                        <td className="explanation">Crunch your right elbow up toward your left knee then vice versa.</td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ crossCrunchThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">90/90 crunch</td>
+                        <td className="explanation">
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Scissors</td>
+                        <td className="explanation">Lay on your back and scissor your legs from side to side as 
+                            shown in the video.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ scissorThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">Heels to the heavens</td>
                         <td className="explanation">Lay on your back and put your legs straight up.  Then raise your 
                             pelvis off the ground in a controlled way as shown in the video.
@@ -94,66 +312,12 @@ function Abs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Scissors</td>
-                        <td className="explanation">Lay on your back and scissor your legs from side to side as 
-                            shown in the video.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ scissorThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Flutter kick</td>
                         <td className="explanation">Lay on your back and flutter kick your legs up and down as shown 
                             in the video.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ flutterThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Mason Twist</td>
-                        <td className="explanation">Sit on the ground and pull your legs in toward your body.  Lift 
-                            your heels off the ground and twist your upper body while tapping your hands on each side of
-                            your hips.  Do this as many times as you can.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ twistThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Side Crunches</td>
-                        <td className="explanation">Lay on your side and cruch your body upward to perform the side 
-                            crunch.  See video for the correct form.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ sideCrunchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Circle Crunches</td>
-                        <td className="explanation">This is similar to a crunch but keep your legs extended and move
-                            your upper body in a clock-wise motion and then do the same number of repetitions in a 
-                            counter-clock-wise motion.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ circleThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -174,38 +338,12 @@ function Abs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">heel touches</td>
-                        <td className="explanation">Use the same starting position as a sit up but move your body 
-                            side to side so that your can touch your heels.  Repeat as needed.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ heelTouchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">knee crunches</td>
                         <td className="explanation">Lay down with your head and shoulder blades elevated then crunch your
                             legs toward your body to contract your ab muscles.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ kneeCrunchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">side hip raise</td>
-                        <td className="explanation">Put your weight on one arm and one leg with your body facing forward
-                            and raise your hips straight up and then lower them.  Repeat as many times as you can.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ sideRaiseThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -240,34 +378,7 @@ function Abs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">cross leg/wide leg sit up</td>
-                        <td className="explanation">Lay down with your legs spread apart.  Sit up and touch your left
-                            leg with your right hand.  Then lay down and do the opposite.  To make the exercise more 
-                            difficult, sit with your legs crossed as shown in the video.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ wideSitThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">leg climb</td>
-                        <td className="explanation">Lay down and extend one leg up.  Climb your leg with your hands 
-                            focusing on using your ab muscles.  Then do it with the opposite leg.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ legClimbThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">plank variations (jump ins, rolls, jacks, mountain climbers)</td>
+                        <td className="nameOfExercise">plank variations (jump ins, rolls, jacks, mountain climbers, marching, tuck etc.)</td>
                         <td className="explanation">Do a plank but instead of just holding still, you can do jumping
                             jacks with your legs, you can jump your feet in close to your hands, you can roll side to 
                             side, or you can do mountain climber planks by bending one leg at a time.  Do a variety of
@@ -295,17 +406,6 @@ function Abs() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Cross crunches</td>
-                        <td className="explanation">Crunch your right elbow up toward your left knee then vice versa.</td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ crossCrunchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Roll up v-up</td>
                         <td className="explanation">Lay down flat then sit up while your legs come toward you which makes
                             a "V" shape.  Then lay back down while extending your legs and flattening your body.  Repeat
@@ -313,45 +413,6 @@ function Abs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ vUpThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Oblique v-up</td>
-                        <td className="explanation">Lay on your side and raise your right elbow up toward your right
-                            knee as shown in the video.  Then do the same on your left side.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ obliqueVThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Windshield wipers</td>
-                        <td className="explanation">Lay on your back and straighten your legs pointing upward.  Move 
-                            your legs like windshield wipers as shown in the video.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ wipersThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">5 angle leg crunches</td>
-                        <td className="explanation">Crunch your legs toward your upper body using the 5 angles that
-                            are shown in the video.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
