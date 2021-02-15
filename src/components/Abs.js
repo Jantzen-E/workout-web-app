@@ -183,6 +183,10 @@ function Abs() {
                         <td></td>
                         <td className="nameOfExercise">Seated ab circles</td>
                         <td className="explanation">
+                            Sit down and extend your legs out.  Act as if you are drawing a circle with your feet 
+                            by moving your feet around in a circle counter clockwise.  Do that for 30 seconds or 
+                            for as long as you can then reverse the motion in a clockwise motion for the same amount 
+                            of time.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ abCircleThumbnail }>
@@ -195,6 +199,9 @@ function Abs() {
                         <td></td>
                         <td className="nameOfExercise">Russian V tuck twists</td>
                         <td className="explanation">
+                            Lay down and as you sit up, bring your left leg close to your body as your upper body twists 
+                            to the right.  Touch your hands on your right glute during the twist.  Lay back down and 
+                            then repeat the exercise but just the opposite.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ russianVTwistThumbnail }>
@@ -207,6 +214,9 @@ function Abs() {
                         <td></td>
                         <td className="nameOfExercise">Jackknife crunch</td>
                         <td className="explanation">
+                            This exercise is similar to the russian v tuck but you don't twist at the top of the motion.  
+                            As you sit up, bring one knee close to your body.  Then lay down and sit back up bringing the 
+                            opposite knee close to your body.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jackKnifeThumbnail }>
@@ -219,6 +229,9 @@ function Abs() {
                         <td></td>
                         <td className="nameOfExercise">Crunch & twist</td>
                         <td className="explanation">
+                            Perform a crunch, and then twist to one side then back to center.  Then lay back down and do the 
+                            crunch and twist to the opposite side.  This exercise prolongs the contraction at the top of the 
+                            exercise which is a great workout for your upper abs.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ crunchTwistThumbnail }>
@@ -255,6 +268,9 @@ function Abs() {
                         <td></td>
                         <td className="nameOfExercise">90/90 crunch</td>
                         <td className="explanation">
+                            For this crunch, your legs crunch up to 90 degrees and your elbows that are behind your head 
+                            point up at 90 degrees.  You are crunching both your upper and lower body toward each other
+                            for a great overall ab exercise.  Follow the video for the correct form.
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ ninetyNinetyThumbnail }>
