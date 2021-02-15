@@ -27,6 +27,11 @@ import vUpThumbnail from '../images/abs/vUpThumbnail.jpg';
 import obliqueVThumbnail from '../images/abs/obliqueVThumbnail.jpg';
 import wipersThumbnail from '../images/abs/wipersThumbnail.jpg';
 import angleThumbnail from '../images/abs/angleThumbnail.jpg';
+import abCircleThumbnail from '../images/abs/abCircleThumbnail.jpg';
+import russianVTwistThumbnail from '../images/abs/russianVTwistThumbnail.jpg';
+import jackKnifeThumbnail from '../images/abs/jackKnifeThumbnail.jpg';
+import crunchTwistThumbnail from '../images/abs/crunchTwistThumbnail.jpg';
+import ninetyNinetyThumbnail from '../images/abs/ninetyNinetyThumbnail.jpg';
 
 function Abs() {
     return(
@@ -180,7 +185,7 @@ function Abs() {
                         <td className="explanation">
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ abCircleThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -192,7 +197,7 @@ function Abs() {
                         <td className="explanation">
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ russianVTwistThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -204,7 +209,7 @@ function Abs() {
                         <td className="explanation">
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ jackKnifeThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -216,7 +221,7 @@ function Abs() {
                         <td className="explanation">
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ crunchTwistThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -252,7 +257,7 @@ function Abs() {
                         <td className="explanation">
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ angleThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ ninetyNinetyThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

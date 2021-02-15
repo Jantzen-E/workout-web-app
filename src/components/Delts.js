@@ -2,7 +2,7 @@ import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
-import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
+// import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
 import shoulderPressThumbnail from '../images/delts/shoulderPressThumbnail.jpg';
@@ -14,7 +14,7 @@ import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import rotatorThumbnail from '../images/delts/rotatorThumbnail.jpg';
-import frontRaiseVid from '../videos/delts/frontRaise.mp4';
+// import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 import pressVid from '../videos/delts/press.mp4';
 
 function Delts() {
@@ -28,7 +28,7 @@ function Delts() {
                         <th>Instructions</th>
                         <th>Examples</th>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
                         <td className="nameOfExercise">Weighted arm raises</td>
                         <td className="explanation">
@@ -42,10 +42,10 @@ function Delts() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
-                        <td></td>
-                        <td className="nameOfExercise">upright row</td>
+                        <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
+                        <td className="nameOfExercise">wide upright row</td>
                         <td className="explanation">
                             Hold dumbells in each hand and let them hang down in front of you.  The dumbells should be close
                             together (almost touching).  Raise them straight up until the weights are just under your chin 

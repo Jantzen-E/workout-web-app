@@ -18,6 +18,8 @@ import faceCurlsThumbnail from '../images/biceps/faceCurlsThumbnail.jpg';
 import waiterThumbnail from '../images/biceps/waiterThumbnail.jpg';
 import burnoutThumbnail from '../images/biceps/burnoutThumbnail.jpg';
 import legCurlThumbnail from '../images/biceps/legCurlThumbnail.jpg';
+import cheatCurlThumbnail from '../images/biceps/cheatCurlThumbnail.jpg';
+import inclineCurlThumbnail from '../images/biceps/inclineCurlThumbnail.jpg';
 import supinationVid from '../videos/biceps/supination.mp4';
 import inOutVid from '../videos/biceps/inOut.mp4';
 import hammerVid from '../videos/biceps/hammer.mp4';
@@ -36,7 +38,23 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td><img src={ bicepsImage } className="bicepsImage" alt="biceps muscle"></img></td>
-                        <td className="nameOfExercise">Full supination curls</td>
+                        <td className="nameOfExercise">Standing cheating bicep curls</td>
+                        <td className="explanation">
+                            This exercise is done by using a barbell and can be done with heavier weight than normal.
+                            Start off by doing a regular curl with the best form possible but as you get closer to failure, 
+                            rock your body a little bit to get extra reps out of the exercise.  Do not lean back when you are 
+                            slightly rocking.  Lean slightly forward or you can be vertical.  
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ cheatCurlThumbnail }>
+                                <source src={ supinationVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">pronated grip to full supination curls</td>
                         <td className="explanation">
                             Perform a one armed curl as normal but at the top of the movement rotate your the pinky side
                             of your hand inward like you are trying to point it at your shoulder which will supinate
@@ -45,6 +63,34 @@ function Biceps() {
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ supinationThumbnail }>
                                 <source src={ supinationVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Band curls with elbows behind back</td>
+                        <td className="explanation">
+                            Anchor the band behind you and start with your arms behind your back.  Curl your arms forward
+                            until they get close to your shoulders while leaning forward.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Incline bicep curl</td>
+                        <td className="explanation">
+                            Sit on a bench that can lean back and perform regular curls.  This angle will help to get some 
+                            variation into your work out and work a different area of the bicep.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ inclineCurlThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -224,20 +270,6 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ faceCurlsThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Band curls with elbows behind back</td>
-                        <td className="explanation">
-                            Anchor the band behind you and start with your arms behind your back.  Curl your arms forward
-                            until they get close to your shoulders.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ elbowsBehindThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
