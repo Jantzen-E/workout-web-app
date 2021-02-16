@@ -7,13 +7,14 @@ import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
 import shoulderPressThumbnail from '../images/delts/shoulderPressThumbnail.jpg';
 import poursThumbnail from '../images/delts/pours.jpg';
-import circlesThumbnail from '../images/delts/circlesThumbnail.jpg';
+// import circlesThumbnail from '../images/delts/circlesThumbnail.jpg';
 import uprightRowThumbnail from '../images/delts/uprightRowThumbnail.jpg';
 import ypressThumbnail from '../images/delts/ypressThumbnail.jpg';
 import rearDeltThumbnail from '../images/delts/rearDeltThumbnail.jpg';
 import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import rotatorThumbnail from '../images/delts/rotatorThumbnail.jpg';
+import lateralRaiseThumbnail from '../images/delts/lateralRaiseThumbnail.jpg';
 // import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 import pressVid from '../videos/delts/press.mp4';
 
@@ -45,11 +46,67 @@ function Delts() {
                     </tr> */}
                     <tr>
                         <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
+                        <td className="nameOfExercise">Rear delt fly</td>
+                        <td className="explanation">
+                            Grab the bar and push your hands outward and then squeeze your shoulder blades in the back which will engage 
+                            the back side of your shoulder.  Then move your hands slowly to the original position and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Side lateral raises</td>
+                        <td className="explanation">
+                            Use the machine at the gym or grab dumbbells and raise them out to your sides as shown in the video.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ lateralRaiseThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">shoulder press</td>
+                        <td className="explanation">
+                            Hold dumbells in each hand just above your shoulders.  Extend your arms all the way above your head 
+                            until the dumbells lightly touch above your head.  Then lower them back down slowly to the position
+                            just above your shoulders.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
+                                <source src={ pressVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">y press</td>
+                        <td className="explanation">
+                            Do the same things as the shoulder press but when you extend your arms above your head, the weights should
+                            get farther apart so that your body looks like a "Y" when they are fully extended.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">wide upright row</td>
                         <td className="explanation">
                             Hold dumbells in each hand and let them hang down in front of you.  The dumbells should be close
-                            together (almost touching).  Raise them straight up until the weights are just under your chin 
-                            and your elbows are as high as your ears.  Then lower the weights down slowly to the original position 
+                            together (almost touching).  Raise them straight up until the weights are just under your pecs
+                            and your elbows are out to the side.  Then lower the weights down slowly to the original position 
                             then repeat.
                         </td>
                         <td>
@@ -69,20 +126,6 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Rear delt fly</td>
-                        <td className="explanation">
-                            Grab the bar and push your hands outward and then squeeze your shoulder blades in the back which will engage 
-                            the back side of your shoulder.  Then move your hands slowly to the original position and repeat.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -135,35 +178,6 @@ function Delts() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">shoulder press</td>
-                        <td className="explanation">
-                            Hold dumbells in each hand just above your shoulders.  Extend your arms all the way above your head 
-                            until the dumbells lightly touch above your head.  Then lower them back down slowly to the position
-                            just above your shoulders.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
-                                <source src={ pressVid } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">y press</td>
-                        <td className="explanation">
-                            Do the same things as the shoulder press but when you extend your arms above your head, the weights should
-                            get farther apart so that your body looks like a "Y" when they are fully extended.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">pours</td>
                         <td className="explanation">
                             Hold dumbells in each hand and exend them out to your sides with one side of the dumbell pointing up
@@ -177,7 +191,7 @@ function Delts() {
                             </video>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">weighted circle</td>
                         <td className="explanation">
@@ -191,7 +205,7 @@ function Delts() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">pike push up</td>
