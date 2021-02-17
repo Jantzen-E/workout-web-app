@@ -26,13 +26,13 @@ function Quads() {
                     </tr>
                     <tr>
                         <td><img src={ quadsImage } className="quadsImage" alt="quadriceps muscles"></img></td>
-                        <td className="nameOfExercise">Assisted pistol squats</td>
-                        <td className="explanation">Do a squat with one leg and at the bottom of the movement, you sit on
-                            a bench or chair then push your body weight back up with that same leg again.  Repeat until
-                            failure then switch legs.
+                        <td className="nameOfExercise">Close-stance squats</td>
+                        <td className="explanation">Perform a squat with the correct form as shown in the video with your 
+                            feet close together.  This stance will put more focus on the quads as opposed to the glutes but 
+                            it is a great overall leg workout.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ pistolSquatThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -40,12 +40,14 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Wall sit pulses</td>
-                        <td className="explanation">Do a wall sit but instead of holding still, pulse up and down so that
-                            your body is moving up and down the whole time.
+                        <td className="nameOfExercise">Prisoner squat</td>
+                        <td className="explanation">
+                            Perform a squat as shown in the video and place your hands on the top of your head and with
+                            your elbows flared while you do so.  This will help you with your form by keeping your chest 
+                            out and your back straight so that you don't hunch over or round the back. 
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ wallSitThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ prisonerThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -80,13 +82,13 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Bulgarian split squats</td>
-                        <td className="explanation">Put one foot in front of you and your back foot should rest on a bench
-                            or chair.  Lower your body down until your back knee gets close to the ground.  Then push your 
-                            body weight back up using your leg muscles.  Repeat as needed. 
+                        <td className="nameOfExercise">Assisted pistol squats</td>
+                        <td className="explanation">Do a squat with one leg and at the bottom of the movement, you sit on
+                            a bench or chair then push your body weight back up with that same leg again.  Repeat until
+                            failure then switch legs.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ bulgarianThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ pistolSquatThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -94,13 +96,26 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Close-stance squats</td>
-                        <td className="explanation">Perform a squat with the correct form as shown in the video with your 
-                            feet close together.  This stance will put more focus on the quads as opposed to the glutes but 
-                            it is a great overall leg workout.
+                        <td className="nameOfExercise">Wall sit pulses</td>
+                        <td className="explanation">Do a wall sit but instead of holding still, pulse up and down so that
+                            your body is moving up and down the whole time.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ wallSitThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Bulgarian split squats</td>
+                        <td className="explanation">Put one foot in front of you and your back foot should rest on a bench
+                            or chair.  Lower your body down until your back knee gets close to the ground.  Then push your 
+                            body weight back up using your leg muscles.  Repeat as needed. 
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ bulgarianThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -160,21 +175,6 @@ function Quads() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hipFlexionThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Prisoner squat</td>
-                        <td className="explanation">
-                            Perform a squat as shown in the video and place your hands on the top of your head and with
-                            your elbows flared while you do so.  This will help you with your form by keeping your chest 
-                            out and your back straight so that you don't hunch over or round the back. 
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ prisonerThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

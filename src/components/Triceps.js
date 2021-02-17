@@ -29,7 +29,7 @@ function Triceps() {
                     </tr>
                     <tr>
                         <td><img src={ tricepsImage } className="tricepsImage" alt="triceps muscle"></img></td>
-                        <td className="nameOfExercise">skull crushers on back</td>
+                        <td className="nameOfExercise">pronated skull crushers on back</td>
                         <td className="explanation">Hold dumbbells in each hand and lay down on your back on a bench
                             or on the floor.  Extend the weights above your head but angled slightly back and then bend
                             at the elbow and lower the weights down next to your ears.  Then raise them up again.
@@ -65,6 +65,20 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ chairDipThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">pronated dumbell tricep press</td>
+                        <td className="explanation">Lay down on a bench and hold 2 dumbbells close together on your
+                            chest.  Raise them up together as they are touching and squeeze them together as you raise them.
+                            Lower them back down to your chest and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ tricepPressThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -145,20 +159,6 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ diamondPushupThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">dumbell tricep press</td>
-                        <td className="explanation">Lay down on a bench and hold 2 dumbbells close together on your
-                            chest.  Raise them up together as they are touching and squeeze them together as you raise them.
-                            Lower them back down to your chest and repeat.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ tricepPressThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

@@ -27,20 +27,6 @@ function Lats() {
                     </tr>
                     <tr>
                         <td><img src={ latsImage } className="latsImage" alt="latissimus dorsi muscle"></img></td>
-                        <td className="nameOfExercise">Pull-ups</td>
-                        <td className="explanation">
-                            Raise both of your hands above your head and with an overhand grip, grab the bar.  Pull
-                            your body upward until your head gets above the bar and slowly lower your body down again.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Seated lat pulldown</td>
                         <td className="explanation">
                             With your arms extended above your head and using a cable machine or bands, sit down and pull the weight down 
@@ -48,6 +34,20 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ latPulldownThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Pull-ups</td>
+                        <td className="explanation">
+                            Raise both of your hands above your head and with an overhand grip, grab the bar.  Pull
+                            your body upward until your head gets above the bar and slowly lower your body down again.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
