@@ -2,7 +2,7 @@ import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
-// import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
+import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
 import shoulderPressThumbnail from '../images/delts/shoulderPressThumbnail.jpg';
@@ -15,7 +15,7 @@ import pikeThumbnail from '../images/delts/pikeThumbnail.jpg';
 import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import rotatorThumbnail from '../images/delts/rotatorThumbnail.jpg';
 import lateralRaiseThumbnail from '../images/delts/lateralRaiseThumbnail.jpg';
-// import frontRaiseVid from '../videos/delts/frontRaise.mp4';
+import frontRaiseVid from '../videos/delts/frontRaise.mp4';
 import pressVid from '../videos/delts/press.mp4';
 
 function Delts() {
@@ -29,21 +29,6 @@ function Delts() {
                         <th>Instructions</th>
                         <th>Examples</th>
                     </tr>
-                    {/* <tr>
-                        <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
-                        <td className="nameOfExercise">Weighted arm raises</td>
-                        <td className="explanation">
-                            Hold weight in each hand and lift the weight up in front of your body.  Slowly lower it.  
-                            Then raise the weight to the side of your body (like a shoulder fly) to exercise the 
-                            delt from a different angle. 
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
-                                <source src={ frontRaiseVid } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr> */}
                     <tr>
                         <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
                         <td className="nameOfExercise">Rear delt fly</td>
@@ -88,13 +73,14 @@ function Delts() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">y press</td>
+                        <td className="nameOfExercise">Face Pulls</td>
                         <td className="explanation">
-                            Do the same things as the shoulder press but when you extend your arms above your head, the weights should
-                            get farther apart so that your body looks like a "Y" when they are fully extended.
+                            Using bands or the cable machine and rope, face the machine or anchor point and pull the tension toward your 
+                            face while letting your elbows point straight out to the side and by squeezing your shoulder blades together.
+                            Watch the video for the correct form.  This exercise primarily works the rear delts.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -126,21 +112,6 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ scarecrowThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Face Pulls</td>
-                        <td className="explanation">
-                            Using bands or the cable machine and rope, face the machine or anchor point and pull the tension toward your 
-                            face while letting your elbows point straight out to the side and by squeezing your shoulder blades together.
-                            Watch the video for the correct form.  This exercise primarily works the rear delts.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -206,6 +177,35 @@ function Delts() {
                             </video>
                         </td>
                     </tr> */}
+                    <tr>
+                        <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
+                        <td className="nameOfExercise">Weighted arm raises</td>
+                        <td className="explanation">
+                            Hold weight in each hand and lift the weight up in front of your body.  Slowly lower it.  
+                            Then raise the weight to the side of your body (like a shoulder fly) to exercise the 
+                            delt from a different angle. 
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ armRaiseThumbnail }>
+                                <source src={ frontRaiseVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">y press</td>
+                        <td className="explanation">
+                            Do the same things as the shoulder press but when you extend your arms above your head, the weights should
+                            get farther apart so that your body looks like a "Y" when they are fully extended.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ypressThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">pike push up</td>

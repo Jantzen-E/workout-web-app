@@ -10,6 +10,7 @@ import tricepPressThumbnail from '../images/triceps/tricepPressThumbnail.jpg';
 import sphinxPushupThumbnail from '../images/triceps/sphinxPushupThumbnail.jpg';
 import chairSkullCrusherThumbnail from '../images/triceps/chairSkullCrusherThumbnail.jpg';
 import triExtensionThumbnail from '../images/triceps/triExtensionThumbnail.jpg';
+import cableTriExtensionThumbnail from '../images/triceps/cableTriExtensionThumbnail.jfif';
 import tricepKickbackThumbnail from '../images/triceps/tricepKickbackThumbnail.jpg';
 import clavShExtensionThumbnail from '../images/triceps/clavShExtensionThumbnail.jpg';
 import isoBurnoutThumbnail from '../images/triceps/isoBurnoutThumbnail.jpg';
@@ -119,6 +120,19 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ triExtensionThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">behind the head cable tricep extension</td>
+                        <td className="explanation">Hold a handle attached to a cable above your head with arms extended and 
+                            slowly lower the weight behind your head by bending the elbows.  Lift weight up and out and repeat.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ cableTriExtensionThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

@@ -97,6 +97,36 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td></td>
+                        <td className="nameOfExercise">Cross body curls</td>
+                        <td className="explanation">
+                            Sit down on a bench with your elbow resting on the inside of your knee.  With a weight
+                            in your hand, do a curl across your body so that the weight almost scrapes across your 
+                            opposite pectoral muscle.  Lower it down slowly and repeat as needed.  Then switch hands
+                            and repeat instructions above.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ crossBodyThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Close body drag curl</td>
+                        <td className="explanation">
+                            Do a curl but as you lift the dumbells or barbell up, let your elbows go behind your back
+                            so that the barbell or dumbells drag straight up close to your body.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td className="nameOfExercise">In & out</td>
                         <td className="explanation">
                             Do a normal curl by pulling the weights up to your shoulders and then lower them down.  
@@ -169,22 +199,6 @@ function Biceps() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Cross body curls</td>
-                        <td className="explanation">
-                            Sit down on a bench with your elbow resting on the inside of your knee.  With a weight
-                            in your hand, do a curl across your body so that the weight almost scrapes across your 
-                            opposite pectoral muscle.  Lower it down slowly and repeat as needed.  Then switch hands
-                            and repeat instructions above.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ crossBodyThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Cross body hammer curl</td>
                         <td className="explanation">
                             Perform a similar exercise as explained above but grip the weights like a hammer instead of
@@ -228,20 +242,6 @@ function Biceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ halfHammerThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Close body drag curl</td>
-                        <td className="explanation">
-                            Do a curl but as you lift the dumbells or barbell up, let your elbows go behind your back
-                            so that the barbell or dumbells drag straight up close to your body.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ dragCurlThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

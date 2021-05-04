@@ -31,13 +31,14 @@ function Cardio() {
                         <th>Example</th>
                     </tr>
                     <tr>
-                        <td><img src={ cardioImage } className="cardioImage" alt="heart muscle"></img></td>
-                        <td className="nameOfExercise">Jump rope</td>
-                        <td className="explanation">Jump the rope as shown in the video for as long as you can to get a 
-                            cardio workout that will help you to burn calories.
+                        <td></td>
+                        <td className="nameOfExercise">Incline treadmill</td>
+                        <td className="explanation">Walk or jog on the treadmill while the treadmill is at the maximum incline 
+                            possible.  This will allow you to burn calories faster and is a great work out.  For more intense 
+                            cardio workout, increase speed as well.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ inclineTreadmillThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -51,6 +52,49 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ cyclingThumbnail }>
+                                <source src={ trainingVideo } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Stair climber machine</td>
+                        <td className="explanation">
+                            The stair climber machine simulates stairs that keep going and going so you can set a goal for how
+                            many minutes you want to walk on it and you will get a great cardio workout from this.  For more 
+                            intense cardio workouts, you can increase the speed of the stairs to make you step faster.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ stairThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="nameOfExercise">Elliptical</td>
+                        <td className="explanation">
+                            The elliptical is good because you are moving your arms and your legs.  It is a good alternative 
+                            if you don't like running or using the treadmill because it is low impact meaning that it is not 
+                            hard on your joints.  Increase intensity by increasing speed and/or resistance.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
+                                <source src={ jumpSquatsVid } type="video/mp4"/>
+                                Your browser does not support the video tag
+                            </video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src={ cardioImage } className="cardioImage" alt="heart muscle"></img></td>
+                        <td className="nameOfExercise">Jump rope</td>
+                        <td className="explanation">Jump the rope as shown in the video for as long as you can to get a 
+                            cardio workout that will help you to burn calories.
+                        </td>
+                        <td>
+                            <video width="432" height="240" autoplay controls muted poster={ jumpRopeThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -100,20 +144,6 @@ function Cardio() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Incline treadmill</td>
-                        <td className="explanation">Walk or jog on the treadmill while the treadmill is at the maximum incline 
-                            possible.  This will allow you to burn calories faster and is a great work out.  For more intense 
-                            cardio workout, increase speed as well.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ inclineTreadmillThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
                         <td className="nameOfExercise">Speed skaters</td>
                         <td className="explanation">Jump back and forth with your weight on only one leg, and move your arms
                             like a speed skater.  Follow the video for the correct form.
@@ -135,36 +165,6 @@ function Cardio() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jumpSquatThumbnail }>
-                                <source src={ jumpSquatsVid } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Stair climber machine</td>
-                        <td className="explanation">
-                            The stair climber machine simulates stairs that keep going and going so you can set a goal for how
-                            many minutes you want to walk on it and you will get a great cardio workout from this.  For more 
-                            intense cardio workouts, you can increase the speed of the stairs to make you step faster.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ stairThumbnail }>
-                                <source src={ jumpSquatsVid } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Elliptical</td>
-                        <td className="explanation">
-                            The elliptical is good because you are moving your arms and your legs.  It is a good alternative 
-                            if you don't like running or using the treadmill because it is low impact meaning that it is not 
-                            hard on your joints.  Increase intensity by increasing speed and/or resistance.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ ellipticalThumbnail }>
                                 <source src={ jumpSquatsVid } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

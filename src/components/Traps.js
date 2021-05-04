@@ -1,6 +1,6 @@
 import React from 'react';
 import trapsImage from '../images/traps/traps.jpg';
-import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
+// import neckBridgeThumbnail from '../images/traps/neckBridgeThumbnail.jpg';
 import shrugThumbnail from '../images/traps/shrugThumbnail.jpg';
 import rearShrugThumbnail from '../images/traps/rearShrugThumbnail.jpg';
 import shrugVid from '../videos/traps/shrugs.mp4';
@@ -46,7 +46,7 @@ function Traps() {
                         </video>
                     </td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td></td>
                     <td className="nameOfExercise">Neck bridges</td>
                     <td className="explanation">
@@ -59,7 +59,7 @@ function Traps() {
                             Your browser does not support the video tag
                         </video>
                     </td>
-                </tr>
+                </tr> */}
                 </table>
             </div>
         </div>
