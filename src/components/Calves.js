@@ -1,6 +1,6 @@
 import React from 'react';
 import calvesImage from '../images/calves/calves.jpg';
-import trainingVideo from '../videos/traps/diveBomb.mp4';
+import trainingVideo from '../videos/calves/calfRaises.mp4';
 import calfRaiseThumbnail from '../images/calves/calfRaiseThumbnail.jpg';
 import squatCalfRaiseThumbnail from '../images/calves/squatCalfRaiseThumbnail.jpg';
 import anteriorTibialisThumbnail from '../images/calves/anteriorTibialisThumbnail.jpg';
