@@ -1,6 +1,7 @@
 import React from 'react';
 import hamstringsImage from '../images/hamstrings/hamstrings.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import hamstringCurlVideo from '../videos/hamstrings/hamstringCurl.mp4';
 import curlThumbnail from '../images/hamstrings/curlThumbnail.jpg';
 import exerciseBallThumbnail from '../images/hamstrings/exerciseBallThumbnail.jpg';
 import nordicCurlThumbnail from '../images/hamstrings/nordicCurlThumbnail.jpg';
@@ -28,7 +29,7 @@ function Hamstrings() {
                         </td>
                         <td>
                             <video className="hamstringVideos" width="432" height="240" autoplay controls muted poster={ curlThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ hamstringCurlVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

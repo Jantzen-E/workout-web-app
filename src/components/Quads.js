@@ -1,6 +1,7 @@
 import React from 'react';
 import quadsImage from '../images/quads/quads.png';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import quadExtensionVideo from '../videos/quads/quadExtensions.mp4';
 import pistolSquatThumbnail from '../images/quads/pistolSquatThumbnail.jpg';
 import wallSitThumbnail from '../images/quads/wallSitThumbnail.jpg';
 import legPressThumbnail from '../images/quads/legPressThumbnail.jpg';
@@ -9,7 +10,6 @@ import bulgarianThumbnail from '../images/quads/bulgarianThumbnail.jpg';
 import closeSquatThumbnail from '../images/quads/closeSquatThumbnail.jpg';
 import lungeThumbnail from '../images/hamstrings/lungeThumbnail.jpg';
 import forwardLungesThumbnail from '../images/quads/forwardLungesThumbnail.jpg';
-import hipFlexionThumbnail from '../images/quads/hipFlexionThumbnail.jpg';
 import jumpLungeThumbnail from '../images/quads/jumpLungeThumbnail.jpg';
 import prisonerThumbnail from '../images/glutes/prisonerThumbnail.jpg';
 
@@ -69,13 +69,13 @@ function Quads() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Leg extensions</td>
+                        <td className="nameOfExercise">3-direction Leg extensions</td>
                         <td className="explanation">Sit in the leg extension seat and put your ankles on the round pad.  
                             Extend your legs while pushing the weight up and slowly lower them back down.  Repeat as needed. 
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ extensionThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ quadExtensionVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -161,20 +161,6 @@ function Quads() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ jumpLungeThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
-                                Your browser does not support the video tag
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td className="nameOfExercise">Hip flexion with multi hip machine</td>
-                        <td className="explanation">Adjust the roller to the correct height and place it right above your
-                            knee.  Push your leg forward by bending at the hip against the resistance.  This will work out 
-                            your quads but it is also good for your hip flexors.
-                        </td>
-                        <td>
-                            <video width="432" height="240" autoplay controls muted poster={ hipFlexionThumbnail }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>

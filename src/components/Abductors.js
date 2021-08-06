@@ -2,6 +2,7 @@ import React from 'react';
 import abductorsImage from '../images/abductors/abductors.jpg';
 import abductorsImage2 from '../images/abductors/abductors2.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import hipAbduction from '../videos/abductors/hipAbduction.mp4';
 import multiHipMachine from '../videos/abductors/abductionMachine.mp4';
 import stepOutThumbnail from '../images/abductors/stepOutThumbnail.png';
 import hipAbductionThumbnail from '../images/abductors/hipAbductionThumbnail.jpg';
@@ -42,7 +43,7 @@ function Abductors() {
                         </td>
                         <td>
                             <video className="abductorVideos" width="432" height="240" autoplay controls muted poster={ hipAbductionThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ hipAbduction } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

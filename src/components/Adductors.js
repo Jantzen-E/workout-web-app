@@ -1,6 +1,7 @@
 import React from 'react';
 import adductorsImage from '../images/adductors/adductors.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import hipAdductorVideo from '../videos/adductors/hipAdductors.mp4';
 import adductionMachineVid from '../videos/adductors/adductionMachine.mp4';
 import sideLungeThumbnail from '../images/adductors/sideLungeThumbnail.jpg';
 import hipAdductorThumbnail from '../images/adductors/hipAdductorThumbnail.jpg';
@@ -39,7 +40,7 @@ function Adductors() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ hipAdductorThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ hipAdductorVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
