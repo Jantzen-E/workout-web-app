@@ -1,6 +1,9 @@
 import React from 'react';
 import latsImage from '../images/lats/lats.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import pullUpVideo from '../videos/lats/pullUps.mp4';
+import latPulldownVideo from '../videos/lats/latPulldown.mp4';
+import straightPulldownVideo from '../videos/lats/straightPulldown.mp4';
 import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
 import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
 import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
@@ -34,7 +37,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ latPulldownThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ latPulldownVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -48,7 +51,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pullUpThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ pullUpVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -62,7 +65,7 @@ function Lats() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ straightPulldownThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ straightPulldownVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

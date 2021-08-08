@@ -1,8 +1,9 @@
 import React from 'react';
 import calvesImage from '../images/calves/calves.jpg';
 import trainingVideo from '../videos/calves/calfRaises.mp4';
+import anteriorTibialisVideo from '../videos/calves/anteriorTibialis.mp4';
 import calfRaiseThumbnail from '../images/calves/calfRaiseThumbnail.jpg';
-import squatCalfRaiseThumbnail from '../images/calves/squatCalfRaiseThumbnail.jpg';
+import seatedCalfRaise from '../images/calves/seatedCalfRaise.jfif';
 import anteriorTibialisThumbnail from '../images/calves/anteriorTibialisThumbnail.jpg';
 
 function Calves() {
@@ -32,12 +33,12 @@ function Calves() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Squat calf raises</td>
-                        <td className="explanation">Get in a low stance as shown in the video and push the weight of
-                            your body up using your calf muscles.  Raise and lower your body repeatedly as needed.
+                        <td className="nameOfExercise">Seated calf raises</td>
+                        <td className="explanation">Sit down with weight pushing down just above the knee and use your 
+                            calf muscles to raise and lower your knees.  Repeat until failure.
                         </td>
                         <td>
-                            <video width="432" height="240" autoplay controls muted poster={ squatCalfRaiseThumbnail }>
+                            <video width="432" height="240" autoplay controls muted poster={ seatedCalfRaise }>
                                 <source src={ trainingVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
@@ -46,7 +47,7 @@ function Calves() {
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Anterior tibialis extensions</td>
-                        <td className="explanation">Put your heels on the ground or use a band and extend your feet 
+                        <td className="explanation">Put your heels on the ground or use a band or weights and extend your feet 
                             forward then pull them back so that your toes point then get closer to your shin.  Do this
                             repeatedly as necessary until you can feel the muscles activate in the front of your leg.
                             This will help with shin splints but it is also good to work these muscles out after doing
@@ -54,7 +55,7 @@ function Calves() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ anteriorTibialisThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ anteriorTibialisVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
