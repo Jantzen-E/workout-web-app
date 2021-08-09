@@ -1,6 +1,7 @@
 import React from 'react';
 import pecsImage from '../images/pecs/pecs.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import diveBombVideo from '../videos/pecs/diveBomb.mp4';
 import inclineBenchThumbnail from '../images/pecs/inclineBenchThumbnail.jpg';
 import benchPressThumbnail from '../images/pecs/benchPressThumbnail.jpg';
 import declineBenchThumbnail from '../images/pecs/declineBenchThumbnail.png';
@@ -189,7 +190,7 @@ function Pecs() {
                         <td className="explanation">See video for details on how to perform this exercise</td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ divePushThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ diveBombVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

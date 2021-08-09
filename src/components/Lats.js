@@ -1,11 +1,12 @@
 import React from 'react';
 import latsImage from '../images/lats/lats.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import seatedRowVideo from '../videos/lats/seatedRow.mp4';
 import pullUpVideo from '../videos/lats/pullUps.mp4';
 import latPulldownVideo from '../videos/lats/latPulldown.mp4';
 import straightPulldownVideo from '../videos/lats/straightPulldown.mp4';
 import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
-import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
+// import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
 import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
 import bentOverRowThumbnail from '../images/lats/bentOverRow.gif';
 import backFlyThumbnail from '../images/lats/backFly.jpg';
@@ -14,7 +15,7 @@ import straightPulldownThumbnail from '../images/lats/straightPulldownThumbnail.
 import seatedRowThumbnail from '../images/lats/seatedRowThumbnail.jpg';
 import latPulldownThumbnail from '../images/lats/latPulldownThumbnail.jpg';
 import pulloverThumbnail from '../images/lats/pulloverThumbnail.jpg';
-import renegadeThumbnail from '../images/lats/renegadeThumbnail.jpg';
+// import renegadeThumbnail from '../images/lats/renegadeThumbnail.jpg';
 import latPulloverVid from '../videos/lats/latPullover.mp4';
 
 function Lats() {
@@ -72,14 +73,14 @@ function Lats() {
                     </tr>
                     <tr>
                         <td></td>
-                        <td className="nameOfExercise">Seated Row</td>
+                        <td className="nameOfExercise">3 direction grip seated Row</td>
                         <td className="explanation">
                             Using a cable machine or bands, sit down and pull the weight so that your hands move toward your lower 
                             chest.  Then slowly extend your arms all the way out and repeat.  
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ seatedRowThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ seatedRowVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -99,7 +100,7 @@ function Lats() {
                             </video>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">Renegade Rows</td>
                         <td className="explanation">
@@ -126,8 +127,8 @@ function Lats() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
-                    <tr>
+                    </tr> */}
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">Heavy pants</td>
                         <td className="explanation">
@@ -141,7 +142,7 @@ function Lats() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Reverse grip bent over row</td>

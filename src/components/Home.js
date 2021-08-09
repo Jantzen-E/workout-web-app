@@ -9,13 +9,13 @@ function Home() {
                         This website is a compilation of exercises 
                         that I have learned over the years from people who are a lot smarter than I am.  I have learned these 
                         from well-known workout programs, fitness gurus/body builders on social media, and from trying lots 
-                        of different exercises out to find which ones I feel like work better for me personally.
+                        of different exercises out.  There are a lot more but these are the ones that I like the best.
                     </p> 
             </details>
             <details>
                 <summary className="questions">WHO IS THIS SITE FOR?:</summary> 
                     <p>
-                        This is for anyone who wants to improve their life by doing exercise.  Exercise helps you feel better
+                        This is for anyone who wants to improve their quality of life by doing exercise.  Exercise helps you feel better
                         by releasing chemicals in your brain that can improve your mood.  It can help improve depression, winter blues, and feelings of laziness and lack of energy. 
                     </p>
             </details>

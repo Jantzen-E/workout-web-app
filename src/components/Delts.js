@@ -178,7 +178,7 @@ function Delts() {
                         </td>
                     </tr> */}
                     <tr>
-                        <td><img src={ delts } className="deltsImage" alt="deltoid muscle"></img><img src={ delts2 } className="deltsImage2" alt="deltoid muscle"></img></td>
+                        <td></td>
                         <td className="nameOfExercise">Weighted arm raises</td>
                         <td className="explanation">
                             Hold weight in each hand and lift the weight up in front of your body.  Slowly lower it.  

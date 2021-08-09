@@ -6,7 +6,7 @@ import hipAbduction from '../videos/abductors/hipAbduction.mp4';
 import multiHipMachine from '../videos/abductors/abductionMachine.mp4';
 import stepOutThumbnail from '../images/abductors/stepOutThumbnail.png';
 import hipAbductionThumbnail from '../images/abductors/hipAbductionThumbnail.jpg';
-import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
+// import bandedHipAbductionThumbnail from '../images/glutes/bandedHipAbductionThumbnail.jpg';
 import multiHipThumbnail from '../images/abductors/multiHipThumbnail.jpg';
 
 function Abductors() {
@@ -48,7 +48,7 @@ function Abductors() {
                             </video>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">Banded Hip Abduction</td>
                         <td className="explanation">Anchor a band to something solid then around your ankle.  Extend
@@ -61,7 +61,7 @@ function Abductors() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td></td>
                         <td className="nameOfExercise">Hip Abduction with multi hip machine</td>

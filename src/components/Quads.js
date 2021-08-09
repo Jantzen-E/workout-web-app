@@ -1,6 +1,8 @@
 import React from 'react';
 import quadsImage from '../images/quads/quads.png';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import closeStanceVideo from '../videos/quads/closeStance.mp4';
+import legPressVideo from '../videos/quads/legPress.mp4';
 import quadExtensionVideo from '../videos/quads/quadExtensions.mp4';
 import pistolSquatThumbnail from '../images/quads/pistolSquatThumbnail.jpg';
 import wallSitThumbnail from '../images/quads/wallSitThumbnail.jpg';
@@ -33,7 +35,7 @@ function Quads() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ closeSquatThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ closeStanceVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -62,7 +64,7 @@ function Quads() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ legPressThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ legPressVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
