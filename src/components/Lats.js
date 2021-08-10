@@ -7,7 +7,7 @@ import latPulldownVideo from '../videos/lats/latPulldown.mp4';
 import straightPulldownVideo from '../videos/lats/straightPulldown.mp4';
 import pullUpThumbnail from '../images/lats/pullUpThumbnail.jpg';
 // import lawnmowerThumbnail from '../images/lats/lawnmowerThumbnail.jpg';
-import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
+// import heavyPantsThumbnail from '../images/lats/heavyPantsThumbnail.jpg';
 import bentOverRowThumbnail from '../images/lats/bentOverRow.gif';
 import backFlyThumbnail from '../images/lats/backFly.jpg';
 import towelLatThumbnail from '../images/lats/towelLatThumbnail.jpg';
