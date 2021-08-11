@@ -1,6 +1,9 @@
 import React from 'react';
 import pecsImage from '../images/pecs/pecs.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import flatBenchVideo from '../videos/pecs/flatBench.mp4';
+import inclineBenchVideo from '../videos/pecs/inclineBench.mp4';
+import chestFlysVideo from '../videos/pecs/chestFlys.mp4';
 import diveBombVideo from '../videos/pecs/diveBomb.mp4';
 import inclineBenchThumbnail from '../images/pecs/inclineBenchThumbnail.jpg';
 import benchPressThumbnail from '../images/pecs/benchPressThumbnail.jpg';
@@ -38,7 +41,7 @@ function Pecs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ benchPressThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ flatBenchVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -51,7 +54,7 @@ function Pecs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ inclineBenchThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ inclineBenchVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -64,7 +67,7 @@ function Pecs() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ flyCrossoverThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ chestFlysVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

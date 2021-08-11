@@ -1,6 +1,7 @@
 import React from 'react';
 import calvesImage from '../images/calves/calves.jpg';
 import trainingVideo from '../videos/calves/calfRaises.mp4';
+import seatedCalfRaisesVideo from '../videos/calves/seatedCalfRaises.mp4';
 import anteriorTibialisVideo from '../videos/calves/anteriorTibialis.mp4';
 import calfRaiseThumbnail from '../images/calves/calfRaiseThumbnail.jpg';
 import seatedCalfRaise from '../images/calves/seatedCalfRaise.jfif';
@@ -39,7 +40,7 @@ function Calves() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ seatedCalfRaise }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ seatedCalfRaisesVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
