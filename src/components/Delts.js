@@ -2,6 +2,7 @@ import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import shoulderPressVideo from '../videos/delts/shoulderPress.mp4';
 import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
 import shoulderFlyThumbnail from '../images/delts/shoulderFlyThumbnail.jpg';
@@ -16,7 +17,7 @@ import facePullThumbnail from '../images/delts/facePullThumbnail.jpg';
 import rotatorThumbnail from '../images/delts/rotatorThumbnail.jpg';
 import lateralRaiseThumbnail from '../images/delts/lateralRaiseThumbnail.jpg';
 import frontRaiseVid from '../videos/delts/frontRaise.mp4';
-import pressVid from '../videos/delts/press.mp4';
+// import pressVid from '../videos/delts/press.mp4';
 
 function Delts() {
     return(
@@ -66,7 +67,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ shoulderPressThumbnail }>
-                                <source src={ pressVid } type="video/mp4"/>
+                                <source src={ shoulderPressVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
