@@ -1,6 +1,9 @@
 import React from 'react';
 import tricepsImage from '../images/triceps/triceps.png';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import dipsVideo from '../videos/triceps/dips.mp4';
+import cableTriExtensionVideo from '../videos/triceps/cableTriExtension.mp4';
+import cablePulldownVideo from '../videos/triceps/cablePulldown.mp4';
 import diamondPushupThumbnail from '../images/triceps/diamondPushupThumbnail.jpg';
 import sideTriRiseThumbnail from '../images/triceps/sideTriRiseThumbnail.JPG';
 import triPushupThumbnail from '../images/triceps/triPushupThumbnail.png';
@@ -51,7 +54,7 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ pushdownThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ cablePulldownVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -66,7 +69,7 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ chairDipThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ dipsVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -133,7 +136,7 @@ function Triceps() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ cableTriExtensionThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ cableTriExtensionVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>

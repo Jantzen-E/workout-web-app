@@ -2,6 +2,9 @@ import React from 'react';
 import delts from '../images/delts/delts.png';
 import delts2 from '../images/delts/delts.jpg';
 import trainingVideo from '../videos/traps/diveBomb.mp4';
+import facePullVideo from '../videos/delts/facePulls.mp4';
+import lateralRaiseVideo from '../videos/delts/lateralRaises.mp4';
+import rearDeltFlyVideo from '../videos/delts/rearDeltFly.mp4';
 import shoulderPressVideo from '../videos/delts/shoulderPress.mp4';
 import armRaiseThumbnail from '../images/delts/armRaiseThumbnail.jpg';
 import scarecrowThumbnail from '../images/delts/scarecrowThumbnail.jpg';
@@ -39,7 +42,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ rearDeltThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ rearDeltFlyVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -52,7 +55,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ lateralRaiseThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ lateralRaiseVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
@@ -82,7 +85,7 @@ function Delts() {
                         </td>
                         <td>
                             <video width="432" height="240" autoplay controls muted poster={ facePullThumbnail }>
-                                <source src={ trainingVideo } type="video/mp4"/>
+                                <source src={ facePullVideo } type="video/mp4"/>
                                 Your browser does not support the video tag
                             </video>
                         </td>
