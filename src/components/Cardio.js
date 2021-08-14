@@ -16,8 +16,8 @@ import skaterThumbnail from '../images/cardio/skaterThumbnail.jpg';
 import jumpSquatThumbnail from '../images/cardio/jumpSquatThumbnail.jpg';
 import ellipticalThumbnail from '../images/cardio/ellipticalThumbnail.jpg';
 import stairThumbnail from '../images/cardio/stairThumbnail.jpg';
-import kickThumbnail from '../images/cardio/kickThumbnail.jpg';
-import medicineBallThumbnail from '../images/cardio/medicineBallThumbnail.jpg';
+// import kickThumbnail from '../images/cardio/kickThumbnail.jpg';
+// import medicineBallThumbnail from '../images/cardio/medicineBallThumbnail.jpg';
 
 function Cardio() {
     return(
@@ -170,7 +170,7 @@ function Cardio() {
                             </video>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">Butt kicks</td>
                         <td className="explanation">
@@ -184,8 +184,8 @@ function Cardio() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
-                    <tr>
+                    </tr> */}
+                    {/* <tr>
                         <td></td>
                         <td className="nameOfExercise">Overhead medicine ball throw downs</td>
                         <td className="explanation">
@@ -199,7 +199,7 @@ function Cardio() {
                                 Your browser does not support the video tag
                             </video>
                         </td>
-                    </tr>
+                    </tr> */}
                 </table> 
             </div>
         </div>
