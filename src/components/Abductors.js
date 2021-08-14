@@ -1,7 +1,6 @@
 import React from 'react';
 import abductorsImage from '../images/abductors/abductors.jpg';
 import abductorsImage2 from '../images/abductors/abductors2.jpg';
-// import trainingVideo from '../videos/traps/diveBomb.mp4';
 import hipAbductionVideo from '../videos/glutes/hipAbduction.mp4';
 import hipAbduction from '../videos/abductors/hipAbduction.mp4';
 import multiHipMachine from '../videos/abductors/abductionMachine.mp4';
