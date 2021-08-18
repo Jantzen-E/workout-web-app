@@ -7,7 +7,7 @@ function Home() {
                 <summary className="questions">WHAT IS THIS WEBSITE?:</summary> 
                     <p>
                         This website is a compilation of exercises 
-                        that I have learned over the years from people who are a lot smarter than I am.  I have learned these 
+                        that I have learned over the years from people who are smarter than I am.  I have learned these 
                         from well-known workout programs, fitness gurus/body builders on social media, and from trying lots 
                         of different exercises out.  There are a lot more but these are the ones that I like the best.
                     </p> 

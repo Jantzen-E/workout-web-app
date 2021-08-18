@@ -81,6 +81,4 @@ function Abductors() {
     )
 }
 
-
-
 export default Abductors;
